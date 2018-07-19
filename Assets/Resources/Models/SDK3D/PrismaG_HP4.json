@@ -1,0 +1,1999 @@
+{
+  "nodeId": "rootNode",
+  "modelId": null,
+  "modelParams": { },
+  "additionalInfo": { },
+  "children": [
+    {
+      "nodeId": "B5388119-2926-4E84-B863-278C833A31CE",
+      "modelId": "oscf618",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "08106",
+        "layer_id": "Enclosure"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "CDBD9518-C38A-44B2-A9B7-2808A8E8E9D3",
+      "modelId": "sb106192",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "1",
+        "layer_id": "FrontPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 47.75,
+          "y": 617,
+          "z": 164.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "57C25C2E-4D51-4C7D-8EEA-E4BED340DE5B",
+      "modelId": "sb106179",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03203",
+        "layer_id": "FrontPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 47.75,
+          "y": 767,
+          "z": 164.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "9BAC68B0-DD22-46C4-931E-EB5E2729A419",
+      "modelId": "sb106179",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03203",
+        "layer_id": "FrontPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 47.75,
+          "y": 467,
+          "z": 164.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "70A37DC1-68CE-4916-A56B-A96745034C9B",
+      "modelId": "sb106415",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03001",
+        "layer_id": "MountingPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 62.95000076293945,
+          "y": 516.9000244140625,
+          "z": 28.599990844726562
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "F27B26AE-7F3A-43AB-8C9F-4F3916DB701C",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 296.9499969482422,
+          "y": 500.6500244140625,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D2ACC1B3-5409-4F33-A896-B2A973E0E02B",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "HF-Barrier 1 Q23"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 350.95001220703125,
+          "y": 500.6500244140625,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "BF422A78-576A-43E0-A0FD-751601694F49",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "HF-Barrier 2 Q24"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 386.95001220703125,
+          "y": 500.6500244140625,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "DB4ADDD0-D3DC-4253-B6F2-27016C20B318",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 422.95001220703125,
+          "y": 500.6500244140625,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "40DA82D8-D4E9-47A5-8382-F0A0F832CCD9",
+      "modelId": "sb110029",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21444",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 314.9499969482422,
+          "y": 502.0000305175781,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "C8C33902-B11A-4940-919C-72E61DB04A55",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 134.9499969482422,
+          "y": 502.0000305175781,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "B5ED1997-A1A9-460C-875B-CC24B6A64DAD",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 152.9499969482422,
+          "y": 502.0000305175781,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "0F99A4AF-A416-43D1-B593-7B99D4BC92DB",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device",
+        "label": "HF-Barrier 1 Q23"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 368.95001220703125,
+          "y": 502.0000305175781,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "3BFCF206-E394-44F3-90BF-2EA9E0B54ABA",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device",
+        "label": "HF-Barrier 2 Q24"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 404.95001220703125,
+          "y": 502.0000305175781,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "9CAC0999-BED9-4300-A1F5-2D1E3C25DEC2",
+      "modelId": "b105988",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "18649",
+        "layer_id": "Device",
+        "label": "Automation Control"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 170.9499969482422,
+          "y": 491.5000305175781,
+          "z": 115.29998779296875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "7D517841-EE8C-470F-9DBE-4053FCB908B5",
+      "modelId": "sb110860",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21030",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 440.95001220703125,
+          "y": 502.3000183105469,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "4AB28A00-A4E5-4B24-AE07-7C9A353676D5",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 116.94999694824219,
+          "y": 500.6500244140625,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "06C30FF7-3001-4026-A1F8-626698452D77",
+      "modelId": "sb106179",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03203",
+        "layer_id": "FrontPlate",
+        "label": "prises Salle visiteurs"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 47.75,
+          "y": 317,
+          "z": 164.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "AA653B8A-FED5-4F40-A5BE-1637893EC15C",
+      "modelId": "sb106415",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03001",
+        "layer_id": "MountingPlate",
+        "label": "Extracteur cuisine"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 62.95000076293945,
+          "y": 366.8999938964844,
+          "z": 28.599990844726562
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "06ED39DC-F799-4637-85A3-8BD408997C3D",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "Eclair Garde"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 80.94999694824219,
+          "y": 350.6499938964844,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "C9106FE2-FE1E-4CD2-8DA2-196D10E93D60",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "Eclair Entrance"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 169.95001220703125,
+          "y": 350.6499938964844,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "607AE50C-B106-4A6F-875B-A17FA3FA5313",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "Autotransformer 25kVA"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 422.95001220703125,
+          "y": 350.6499938964844,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "6527DFC7-EE1E-476F-98C5-8D039E55536E",
+      "modelId": "sb110860",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21030",
+        "layer_id": "Device",
+        "label": "Projecteur 4"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 98.94999694824219,
+          "y": 352.29998779296875,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "8BEB5CF9-8F30-4348-B3B3-E42113DDD5A2",
+      "modelId": "sb110860",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21030",
+        "layer_id": "Device",
+        "label": "Projecteur 3"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 440.95001220703125,
+          "y": 352.29998779296875,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "4F9EA62C-455A-4BA8-9FDA-48AEE87D81B3",
+      "modelId": "sb103302",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9F03202",
+        "layer_id": "Device",
+        "label": "Projecteur 2"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 187.95001220703125,
+          "y": 347.8999938964844,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "E0E29B4A-C2A9-4D32-8891-8224443234F0",
+      "modelId": "sb106179",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03203",
+        "layer_id": "FrontPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 47.75,
+          "y": 167,
+          "z": 164.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "9885D7E7-F7A2-4618-B584-0E4E5AB4C031",
+      "modelId": "sb106415",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03001",
+        "layer_id": "MountingPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 62.95000076293945,
+          "y": 216.85000610351562,
+          "z": 28.599990844726562
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "9474638C-EA36-4792-A74C-8AA2860D03C2",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "Water Heater Q16"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 13,
+        "connectedIds": [ 2 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 170.9499969482422,
+          "y": 200.60000610351562,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "CA1115BC-91FA-4641-9563-0423749BB396",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "HF-Barrier 3 Q25"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 8,
+        "connectedIds": [ 3 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 314.95001220703125,
+          "y": 200.60000610351562,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "B93CA840-542A-4AB7-8410-EFA00B97C841",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "HF-Barrier 4 Q26"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 9,
+        "connectedIds": [ 4 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 350.95001220703125,
+          "y": 200.60000610351562,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "A857799E-B333-4682-A490-15531F300C1D",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "HF-Barrier 5 Q27"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 10,
+        "connectedIds": [ 5 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 386.95001220703125,
+          "y": 200.60000610351562,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "3B3CDB2A-6D5B-4F3A-A175-0675F8F3D823",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "HF-Barrier 6 Q28"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 11,
+        "connectedIds": [ 6 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 422.95001220703125,
+          "y": 200.60000610351562,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "ECFBC84B-D332-4A5C-B44E-5F67CCF3333A",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device",
+        "label": "Fire Alarm Q38"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 12,
+        "connectedIds": [ 7 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 458.95001220703125,
+          "y": 200.60000610351562,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "CD5124FF-FA44-46E4-8DDE-33AAC870E922",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device",
+        "label": "HF-Barrier 3 Q25"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 3,
+        "connectedIds": [ 1 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 332.95001220703125,
+          "y": 201.95001220703125,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "F3DF3F55-6B80-442E-9354-8D1940DC10D1",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device",
+        "label": "HF-Barrier 4 Q26"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 4,
+        "connectedIds": [ 1 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 368.95001220703125,
+          "y": 201.95001220703125,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "C7ACBF50-0BAC-4E54-8039-B2BF579D313E",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device",
+        "label": "HF-Barrier 5 Q27"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 5,
+        "connectedIds": [ 1 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 404.95001220703125,
+          "y": 201.95001220703125,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "574754E1-EF74-4288-99BE-E0C6F826589A",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device",
+        "label": "HF-Barrier 6 Q28"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 6,
+        "connectedIds": [ 1 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 440.95001220703125,
+          "y": 201.95001220703125,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "F07BC423-63A8-4E56-8802-47B01150BEF7",
+      "modelId": "sb105639",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "16726",
+        "layer_id": "Device",
+        "label": "Radiator Q17"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 152.9499969482422,
+          "y": 200.5500030517578,
+          "z": 107.89999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "C242F857-799E-4C64-92E4-C01FE0712BF7",
+      "modelId": "b103168",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21045",
+        "layer_id": "Device",
+        "label": "Water Heater Q16"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 2,
+        "connectedIds": [ 1 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 188.9499969482422,
+          "y": 201.95001220703125,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "F3DE6092-2DDF-4996-8DDE-E680DB7711D2",
+      "modelId": "sb103302",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9F03202",
+        "layer_id": "Device",
+        "label": "Fire Alarm Q38"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 7,
+        "connectedIds": [ 1 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 476.95001220703125,
+          "y": 197.85000610351562,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "5F4D50AF-BAE2-4E2A-8EA5-23277A679E57",
+      "modelId": "sb103304",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9F03440",
+        "layer_id": "Device",
+        "label": "Main Line 2"
+      },
+      "children": [ ],
+      "connectionInfo": {
+        "refId": 1,
+        "connectedIds": [ 2, 3, 4, 5, 6, 7 ]
+      },
+      "transformation": {
+        "position": {
+          "x": 80.94999694824219,
+          "y": 197.85000610351562,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "34066F12-A69C-4AB7-95FD-4199511C36D1",
+      "modelId": "sb106179",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03203",
+        "layer_id": "FrontPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 47.75,
+          "y": 17,
+          "z": 164.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "70BE6B60-597A-48C5-AE97-BB778888CA77",
+      "modelId": "sb106415",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03001",
+        "layer_id": "MountingPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 62.95000076293945,
+          "y": 66.9000015258789,
+          "z": 28.599990844726562
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "E5EBEE32-AB63-440C-82B7-86D07121D4D3",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 80.94999694824219,
+          "y": 50.650001525878906,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "DA2A4CD9-CCE2-463C-A5D6-1786BDC117D3",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 152.9499969482422,
+          "y": 50.650001525878906,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "59559FBC-438F-4588-8525-273A0148C8A9",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 422.95001220703125,
+          "y": 50.650001525878906,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "6ADECF77-B86A-423C-84B9-F173BAEAC3D9",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "26960",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 476.95001220703125,
+          "y": 50.650001525878906,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "CC73449F-FD57-4385-AD79-FFC36FD65A90",
+      "modelId": "b103167",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21024",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 494.95001220703125,
+          "y": 52,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "AB7DD6C5-97CA-4988-B33A-FE708F1FB9E9",
+      "modelId": "b103168",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21045",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 98.94999694824219,
+          "y": 52,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "77D13EE5-F931-4808-BFA1-C34BD4335A8C",
+      "modelId": "sb103302",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9F03202",
+        "layer_id": "Device",
+        "functionalName": "Q10"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 170.9499969482422,
+          "y": 47.900001525878906,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "AE00E89F-6D16-40B1-B36C-C5AA3CA8B9E7",
+      "modelId": "sb103302",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9F03202",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 440.95001220703125,
+          "y": 47.900001525878906,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 80,
+          "y": 512,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 98,
+          "y": 512,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 279,
+          "y": 512,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 315,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 333,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 351,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 224,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 242,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 260,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 278,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 296,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 368,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 386,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 404,
+          "y": 362,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 242,
+          "y": 212,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 260,
+          "y": 212,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 278,
+          "y": 212,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 296,
+          "y": 212,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 206,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 224,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 242,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 260,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 278,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 296,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 314,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 332,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 350,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 368,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 386,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D3EDD298-6D3F-4594-B4EB-1B4C3DC5FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "13300",
+        "layer_id": "DEVICE"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 404,
+          "y": 62,
+          "z": 161
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "84A4A5AD-A315-4600-9A77-EAB0E9456673",
+      "modelId": "sb106415",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "03001",
+        "layer_id": "MountingPlate"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 62.105995178222656,
+          "y": 817.145751953125,
+          "z": 28.599990844726562
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "A43C7A59-0DA0-443A-A38A-7B137CC8FB8D",
+      "modelId": "sb103141",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N26969",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 155.10598754882812,
+          "y": 802.895751953125,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "70266618-04B7-4245-9E0F-36E3EAD01DD8",
+      "modelId": "sb110029",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "A9N21444",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 173.10598754882812,
+          "y": 802.2457275390625,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "55473E8B-3039-45FC-B2F9-747461A145AF",
+      "modelId": "abl8mem24012-3d",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "ABL8MEM24012",
+        "layer_id": "Device"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 442.1059875488281,
+          "y": 802.7457275390625,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "26C3F470-DE0D-488B-B7A9-0B2A9B4CBBB1",
+      "modelId": "sb103146",
+      "modelParams": { },
+      "additionalInfo": {
+        "reference_id": "15324",
+        "layer_id": "Device",
+        "label": "Power"
+      },
+      "children": [ ],
+      "transformation": {
+        "position": {
+          "x": 244.1059875488281,
+          "y": 802.7957763671875,
+          "z": 116.39999389648438
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "transformation": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

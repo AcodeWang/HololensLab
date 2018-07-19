@@ -1,0 +1,1101 @@
+{
+  "nodeId": "feb2d783-63ad-43cd-ab89-52a597b78775R9H18404-3D-ENC",
+  "modelId": "R9H18404-3D-ENC",
+  "modelParams": {
+
+  },
+  "additionalInfo": {
+    "layer_id": "Enclosure",
+    "reference_id": "R9H18404"
+  },
+  "children": [
+    {
+      "nodeId": "a99e7c0f-b916-409a-a595-23371ad0fbe5R9H18404-3D-COV",
+      "modelId": "R9H18404-3D-COV",
+      "modelParams": {
+
+      },
+      "additionalInfo": {
+        "layer_id": "FrontPlate",
+        "reference_id": "R9H18404"
+      },
+      "children": [
+
+      ],
+      "transformation": {
+        "position": {
+          "x": -2.5,
+          "y": 0.3,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": -0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "2bc2dbd0-ab2d-4229-b7c9-544221501318RESI918-RAIL",
+      "modelId": "RESI918-RAIL",
+      "modelParams": {
+
+      },
+      "additionalInfo": {
+        "layer_id": "Rail",
+        "reference_id": "R9H18404"
+      },
+      "children": [
+        {
+          "nodeId": "2801ae2c-37fe-40ef-84f3-e46960f78655SB112376",
+          "modelId": "SB112376",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9ERA240",
+            "label": "label 1"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 12,
+              "y": -10.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "740f04e7-5898-4cbb-9b3a-14608cbd8938R9EXC-3D",
+          "modelId": "R9EXC-3D",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EXC",
+            "label": "label 2"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 48,
+              "y": -8.825,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "5a29ebb7-a943-4f78-95b2-db1aff195beeSB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "Connection 8"
+          },
+          "connectionInfo": {
+            "refId": 8,
+            "connectedIds": [ 3, 6 ]
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 66,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "5188bbcd-b4f8-42e5-9849-a1cf7274ae16SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label 4"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 84,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "2a149915-8824-48ae-90b7-3273572dd8a8SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label 5"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 102,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "92680d25-f993-4c8f-8689-91ce66ea1a61SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC620",
+            "label": "label 6"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 120,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "eee87396-db52-4820-9509-501785ccf88bSB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "label 7"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 138,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "3c9fb38b-2d52-44e1-8b26-6f45ac98f048SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "label 8"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 156,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "bf33d332-7777-454c-b4b9-71094091ef23SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "Connection 7"
+          },
+          "connectionInfo": {
+            "refId": 7,
+            "connectedIds": [ 3 ]
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 174,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "7c79674f-6dca-43da-9d06-5db87ad9e532R9PFA-3D",
+          "modelId": "R9PFA-3D",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9PFA",
+            "label": "label 1"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 291,
+              "y": -13.025,
+              "z": 44
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "7494e697-d78f-4017-8597-468bf82de874R9PLC-3D",
+          "modelId": "R9PLC-3D",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9PLC",
+            "label": "label 2"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 300,
+              "y": -9.925,
+              "z": 44
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "transformation": {
+        "position": {
+          "x": 1.497,
+          "y": 468.45,
+          "z": 3
+        },
+        "rotation": {
+          "x": 0,
+          "y": -0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "a192f692-5d68-4924-baa8-9e065e5a7ab1RESI918-RAIL",
+      "modelId": "RESI918-RAIL",
+      "modelParams": {
+
+      },
+      "additionalInfo": {
+        "layer_id": "Rail",
+        "reference_id": "R9H18404"
+      },
+      "children": [
+        {
+          "nodeId": "16618f37-ebc2-4aa9-939c-b7bda2f4eb67SB112377",
+          "modelId": "SB112377",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9ERB263",
+            "label": "label 1"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 12,
+              "y": -10.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "c8e32cfc-608e-49fa-9e1e-1fa70c51b9e0SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "label 2"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 66,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "47872c41-2713-4e06-bf56-34ea1790b786SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "label 3"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 84,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "ac7d7dea-1192-4538-9b40-cc9ed238e98eSB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "Connection 6"
+          },
+          "connectionInfo": {
+            "refId": 6,
+            "connectedIds": [ 2, 8 ]
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 102,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "f8598317-eada-4be3-866d-90c7d94e00c6SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "label 6"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 120,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "62d5d31c-4640-49ba-a52e-6cf32b602098SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "label 5"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 138,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "1b072f1e-ffed-4d1c-a2f4-e1f8b1680843SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC616",
+            "label": "label 7"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 156,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "33f82188-805c-4d96-8344-b5a187dfac9aSB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "Connection 5"
+          },
+          "connectionInfo": {
+            "refId": 5,
+            "connectedIds": [ 1 ]
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 174,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "e6b3d0c6-39a7-48d5-96fd-c2ec2e68fcfcR9ECS616-3D",
+          "modelId": "R9ECS616-3D",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9ECS616",
+            "label": "label 10"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 192,
+              "y": -8.525,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "transformation": {
+        "position": {
+          "x": 1.497,
+          "y": 343.45,
+          "z": 3
+        },
+        "rotation": {
+          "x": 0,
+          "y": -0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "1cb1d611-f9a6-4161-9e2c-9eda4a191d08RESI918-RAIL",
+      "modelId": "RESI918-RAIL",
+      "modelParams": {
+
+      },
+      "additionalInfo": {
+        "layer_id": "Rail",
+        "reference_id": "R9H18404"
+      },
+      "children": [
+        {
+          "nodeId": "e7457669-547a-437f-a6e1-fc1792a44346SB112376",
+          "modelId": "SB112376",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9ERA240",
+            "label": "label w"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 12,
+              "y": -10.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "bd8a72c7-ae3d-4a80-9af9-18df916e1ab2SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label g"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 48,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "34cda1f3-855e-4aa4-9873-3c589be297f3SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "Connection 4"
+          },
+          "connectionInfo": {
+            "refId": 4,
+            "connectedIds": [ 1 ]
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 66,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "55ea3ab7-473b-44c9-8fc2-656ddbe47088SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label d"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 84,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "06a818eb-70e5-4b38-a745-1b2339e52a23SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label w"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 102,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "1d2bcc05-9eb6-4291-b674-c3dbca919446SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label y"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 120,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "b2a9328b-940b-4127-8d15-d045a803bb0cSB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label a"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 138,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "bb706f04-2f86-4f0b-afcd-b01cab9948d8SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label n"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 156,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "9a51af16-2a37-4a0d-82ff-8ae39bdf4235SB112373",
+          "modelId": "SB112373",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9EFC610",
+            "label": "label e"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 174,
+              "y": -11.625,
+              "z": 35.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "c1c64b40-0e15-4a0e-a526-999058b30c63R9PCLA-3D",
+          "modelId": "R9PCLA-3D",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "R9PCLA",
+            "label": "label PCLA"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 192,
+              "y": -8.525,
+              "z": 44
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "67141765-c5df-410b-9588-6c39130148afSB110029",
+          "modelId": "SB110029",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "A9N21442",
+            "label": "label T"
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 264,
+              "y": -8.825,
+              "z": 44
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "transformation": {
+        "position": {
+          "x": 1.497,
+          "y": 218.45,
+          "z": 3
+        },
+        "rotation": {
+          "x": 0,
+          "y": -0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "cc97a1f9-9a58-4546-bdcd-b6715250e40aRESI918-RAIL",
+      "modelId": "RESI918-RAIL",
+      "modelParams": {
+
+      },
+      "additionalInfo": {
+        "layer_id": "Rail",
+        "reference_id": "R9H18404"
+      },
+      "children": [
+        {
+          "nodeId": "a340aebe-7d79-43d6-b148-eb46ab73fd0dEER31600-3D",
+          "modelId": "EER31600-3D",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "EER31600",
+            "label": "label EER31600"
+          },
+          "connectionInfo": {
+            "refId": 1,
+            "connectedIds": [ 4, 5 ]
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 12,
+              "y": -11.525,
+              "z": 44
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "2ddc7b55-96fb-4272-8737-782f5cf7d92aEER39000-3D",
+          "modelId": "EER39000-3D",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "EER39000",
+            "label": "label EER39000"
+          },
+          "connectionInfo": {
+            "refId": 2,
+            "connectedIds": [ 6 ]
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 66,
+              "y": -11.525,
+              "z": 44
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "nodeId": "ff47544f-f5a1-4946-845c-e83aefecde89EER31120-3D",
+          "modelId": "EER31120-3D",
+          "modelParams": {
+
+          },
+          "additionalInfo": {
+            "layer_id": "Device",
+            "reference_id": "EER31120",
+            "label": "label EER31120"
+          },
+          "connectionInfo": {
+            "refId": 3,
+            "connectedIds": [ 7, 8 ]
+          },
+          "children": [
+
+          ],
+          "transformation": {
+            "position": {
+              "x": 156,
+              "y": -11.525,
+              "z": 44
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0,
+              "z": 0
+            }
+          }
+        }
+      ],
+      "transformation": {
+        "position": {
+          "x": 1.497,
+          "y": 93.45,
+          "z": 3
+        },
+        "rotation": {
+          "x": 0,
+          "y": -0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "transformation": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

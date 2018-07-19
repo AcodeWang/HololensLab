@@ -1,0 +1,3606 @@
+{
+  "nodeId": "rootNode",
+  "modelId": null,
+  "modelParams": {},
+  "additionalInfo": {},
+  "children": [
+    {
+      "nodeId": "2B849A49-03D0-45A0-96DA-840610D5CF73",
+      "modelId": "04651-3d-back",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 57.93987274169922,
+          "y": 0,
+          "z": 27.20001220703125
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "1D49692C-76DD-40AC-82BF-5BDAD1F4AB60",
+      "modelId": "04651-3d-back",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 57.93987274169922,
+          "y": -700,
+          "z": 27.20001220703125
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "EB1ABA4B-6871-4564-A2C3-16119A0E5436",
+      "modelId": "04651-3d-back",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 57.93987274169922,
+          "y": -1400,
+          "z": 27.20001220703125
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "E22A98AC-435C-4F02-A977-1B577AD8577B",
+      "modelId": "prismap-crossbar-w800-inf",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -627.5549926757812,
+          "y": -1506,
+          "z": 349.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "5DEED5F8-3952-4654-A700-EFBFD027BD43",
+      "modelId": "prismap-crossbar-w800-inf",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 172.4449920654297,
+          "y": -1506,
+          "z": 349.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "62166470-DAC4-47CC-85FF-17CC98A2BBAF",
+      "modelId": "prismap-crossbar-w800-inf",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 172.44500732421875,
+          "y": -1506,
+          "z": -175.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 4.936731170342542e-37,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "621E4C2E-E59A-4B4B-B829-8E30306BB2B7",
+      "modelId": "prismap-crossbar-w800-inf",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 972.4450073242188,
+          "y": -1506,
+          "z": -175.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 4.936732776112299e-37,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "267AD6E3-5A94-4151-8E21-BAB962DEBDDB",
+      "modelId": "04651-3d-supp",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "71250AB0-6F0B-4055-BA9C-1D1E5977DAC7",
+      "modelId": "04651-3d-supp",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 0,
+          "y": -700,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "E52E9210-789B-4F94-BE10-3630854DA264",
+      "modelId": "04651-3d-supp",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 0,
+          "y": -1400,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "7C30D4A4-EC9A-45AB-8EAB-9B1D803CF29C",
+      "modelId": "sb106194",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03804",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -552.0050048828125,
+          "y": -937.1000366210938,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "6C9F1E39-FD51-4290-893E-F5AA91B560B5",
+      "modelId": "sb106194",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03804",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -552.0050048828125,
+          "y": -737.1000366210938,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "B0EBD4E3-2BDB-4A07-AA1B-73914C23D3AD",
+      "modelId": "sb106194",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03804",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -552.0050048828125,
+          "y": -537.0999755859375,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "280B4A96-4542-49C1-8F9C-9CB074510020",
+      "modelId": "sb106194",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03804",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -552.0050048828125,
+          "y": 212.9000244140625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "793B949E-86BD-498C-B00D-AF01358FFC7B",
+      "modelId": "sb106194",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03804",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 248.19500732421875,
+          "y": -37.89996337890625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "D455D4E0-4088-41C8-9470-A5CA9563152F",
+      "modelId": "prismap-crossbar-w800-sup",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -627.5549926757812,
+          "y": 436.5,
+          "z": 349.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "336B879B-0050-46CA-8626-219E4BEB758F",
+      "modelId": "08518prot-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08538",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 23.69500732421875,
+          "y": -1433.5,
+          "z": 376.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "677A850E-793B-4523-B911-98CB99FD595E",
+      "modelId": "prismap-crossbar-w800-sup",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 172.44500732421875,
+          "y": 436.5,
+          "z": -175.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 4.936731170342542e-37,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "830CAF40-36CB-4708-9A54-BDA0342C6576",
+      "modelId": "prismap-crossbar-w800-sup",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 172.4449920654297,
+          "y": 436.5,
+          "z": 349.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "B36FC14F-C844-466D-B3AE-4E4484A40076",
+      "modelId": "08518prot-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08538",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 823.6950073242188,
+          "y": -1433.5,
+          "z": 376.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "7A2927CD-027E-4912-9619-D49BBA7EAA0A",
+      "modelId": "prismap-crossbar-w800-sup",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 972.4450073242188,
+          "y": 436.5,
+          "z": -175.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 4.936731170342542e-37,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "C9816069-D1AF-48F8-85C7-0DC2E1595625",
+      "modelId": "04651-3d-angl",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 93.625,
+          "y": 2.5,
+          "z": 354.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "B83361CC-84BA-4109-8B5B-0FB438F6F502",
+      "modelId": "04651-3d-angl",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 93.625,
+          "y": 20.5,
+          "z": 19.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "4474BEA2-AB9A-4C8D-8286-5F62F6DBE95E",
+      "modelId": "04651-3d-angl",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 93.625,
+          "y": -697.5,
+          "z": 354.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "A2A9FB68-DCF3-427C-8212-2713EC180422",
+      "modelId": "04651-3d-angl",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 93.625,
+          "y": -679.5,
+          "z": 19.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "C24FA2EE-A407-43ED-A437-6F574E16F476",
+      "modelId": "04651-3d-angl",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 93.625,
+          "y": -1397.5,
+          "z": 354.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "E1F7ED9B-1B87-48D5-83D3-B0A56EA4711F",
+      "modelId": "04651-3d-angl",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04651",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 93.625,
+          "y": -1379.5,
+          "z": 19.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "1D54C920-7A67-41AB-82BF-5F057B6495A8",
+      "modelId": "sb106366",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08697",
+        "layer_id": "SUPPORT"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -590.0549926757812,
+          "y": -1483.5899658203125,
+          "z": -206.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "A9D52463-0FC5-4241-B906-AE04DF379E0D",
+      "modelId": "sb106366",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08697",
+        "layer_id": "SUPPORT"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 209.9449920654297,
+          "y": -1483.5899658203125,
+          "z": -206.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "65914CDA-F240-4188-BAB9-BA995DBF6873",
+      "modelId": "sb106192",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03803",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -53.30499267578125,
+          "y": -189.0999755859375,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "9CFCE4A7-8A1F-44E5-AC39-E533AF1E836F",
+      "modelId": "sb106192",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03803",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 248.19500732421875,
+          "y": -787.9000244140625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "1107F48C-3034-4225-B179-0C6895994CC8",
+      "modelId": "sb106129",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03644",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -552.0050048828125,
+          "y": -1187.10009765625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "AE8B894C-CB5F-4ADD-A5C6-DF172506BFE6",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 424.5450134277344,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "DD591AFE-D503-487D-A087-AB9C541AE5BE",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 442.5450134277344,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "E120791B-57BA-4FD4-BAA2-1C0DA512B0B9",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 460.5450134277344,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "C9AC01F7-8E52-4AA4-A77E-B58B2E241DD3",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 478.5450134277344,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "A9FEC1B0-EFEF-4AF0-A261-4B07C82C50B2",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 496.5450134277344,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "2C7A7993-9C4E-4FC3-ADD5-81000F38FF50",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 514.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "46020297-F264-464A-9CAF-E78CF8774845",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 532.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "8E8AC3B5-F51C-438A-AC17-C6A7442C5E63",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 550.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "BFB94C1D-F873-401D-B091-AFCADA65AF9D",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 568.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "34185677-B6D7-4ECF-9A04-26FF6EAD099D",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 586.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "4E3F029F-D254-41FD-9E59-49B5B084CDDF",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 604.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "54D11858-F669-4086-9F70-F998780D70A5",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 622.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "5676F8A4-15F6-4525-9837-9771743512C0",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 640.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "96E2C1A2-A0AD-4ED9-90F5-EF29587EFB0B",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 658.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "D4338383-AB45-44F3-8AFE-C7DF2E7842EC",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 658.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "A453F1D9-0049-438C-A57D-575B78A0FD5A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 429.46759033203125,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "02FE6A90-201B-4A28-8D01-8EFBF2CFAAA2",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 447.46759033203125,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "BE5B7233-EF17-4D0C-AFBB-04DF09CF7D6A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 465.46759033203125,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "8A217626-F842-44C8-AB82-D38F6D018E27",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 483.46759033203125,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "1B0460BA-33D2-4AF2-805C-935604C9334E",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 501.46759033203125,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "02110F7B-A525-43E1-B62B-B0F4E83C9D9E",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 519.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "4067C75D-4D8B-43FC-A2CC-0F9156C7E4A0",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 537.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "CC574899-F629-46B7-9490-FD6E11E1D9E2",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 555.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "FD18E443-17F7-4EEA-97C1-D199F2F5E4C5",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 573.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "74A0D803-CB16-427B-A090-605D91B81C67",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 591.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "046DF02C-9A07-4A39-906E-3217D58E2B2D",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 609.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "1DE4E5C4-93F6-4DFB-801D-31020345B3E5",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 627.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "AC67538D-FCAC-4A6A-8BDC-9DF91C8B150C",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 645.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "2C2B799C-59A5-42BF-BFE5-BB7647EC4D13",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 663.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "27FD3160-952F-4C37-A7D7-D15F34F61193",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 681.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "A7A8EB12-2463-4EB8-9C61-A92398AA5590",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 699.4675903320312,
+          "y": -1091.9066162109375,
+          "z": 352.7970275878906
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "B426A2B0-8A54-4A46-8617-C25FB1926ADF",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 676.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "F67362B4-8E38-418E-AA92-F9A53F9B6EF0",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 694.5450439453125,
+          "y": -917,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "4EA12A92-BF8E-4DA7-B4F7-18FDDADC6126",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -429.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "13CC759B-2A7C-4D9B-9018-650F6D00E451",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -411.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "B0DD350E-8826-467D-B244-B614993F026A",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -393.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "7E17314A-B971-499B-9DE1-4A4CB8E118A5",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -375.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "81EA2F73-B76C-4825-BB24-7BFDF591F009",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -357.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "FF33137C-D3E5-4ADA-B70A-15EE9EDD5C79",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -339.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "C3E0D795-E8DA-43C2-A86C-D987222FF7C7",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -321.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "8FDA8137-C0A4-45FC-B6CB-D0501E8CC8B8",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -303.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "69B2177F-9B2F-4483-A78A-B7A40202DB5D",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -285.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "8ED06B49-2FE0-4B08-8171-C241038B1E4D",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -249.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "3D580BF0-3EF8-45E2-A42A-C611175AB9DB",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -267.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "22690AAF-6E7B-4A75-B69B-E83CBFAD7B82",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -231.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "23B9B49A-D900-46D1-BB5D-9DD507A16DA8",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -213.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "8B759964-D032-4794-AF0F-3FE483128C9C",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -195.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "3FE40E1F-261E-4156-B72B-59852DE04804",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -177.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "2D3B8034-D560-403A-8949-63023313B53B",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -159.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "083D3D65-3558-4D02-9E01-33A44494F26E",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -141.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "247D37B2-D836-46A3-B91D-11B25EA3C83D",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -123.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "09BC6381-477C-4445-89E8-0D537C12C9CC",
+      "modelId": "r9h13387-3d-18mm",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "R9H13387-18MM",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -105.655029296875,
+          "y": -1316.199951171875,
+          "z": 352.5799865722656
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "A4EF911A-AA3B-4428-BAF9-6C29ED9F697D",
+      "modelId": "sb106140",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03691",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -552.0050048828125,
+          "y": -187.0999755859375,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "ADC922B4-4C3A-4F65-B5CF-181302387A2C",
+      "modelId": "08760g-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08760",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -651.5549926757812,
+          "y": -1480.5,
+          "z": -212
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "D7D0B698-DFC9-4C4C-9369-5DC3554EB0D0",
+      "modelId": "sb110530",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "LV434128",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 426.24346923828125,
+          "y": 2.6512184143066406,
+          "z": 326.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "81F2EECF-C275-425D-B2D6-C11BDD72AF78",
+      "modelId": "sb106256-mplate",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03483",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -588.3049926757812,
+          "y": -168.50003051757812,
+          "z": 155.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "B6ABD452-D2E2-40BF-B388-F3629A50DF47",
+      "modelId": "sb106480",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08638",
+        "layer_id": "ROOF"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 171.19500732421875,
+          "y": 494,
+          "z": 385.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 4.936731170342542e-37,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "6FF568A5-318D-4DEB-8F61-3ECB60987EEB",
+      "modelId": "sb106480",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08638",
+        "layer_id": "ROOF"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 971.1950073242188,
+          "y": 494,
+          "z": 385.5
+        },
+        "rotation": {
+          "x": -180,
+          "y": 4.936731170342542e-37,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "24D1930D-5ACE-41B6-9860-EF4D0D7823A9",
+      "modelId": "sb106260-mguide",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03483",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -608.0549926757812,
+          "y": -169.4000244140625,
+          "z": 5.600006103515625
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "22B6C565-6D71-45B0-9DAD-5BED33AA3F91",
+      "modelId": "sb106260-mguide",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03483",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 3.1449832916259766,
+          "y": -132.60003662109375,
+          "z": 5.600006103515625
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": 180
+        }
+      }
+    },
+    {
+      "nodeId": "7F7A3C3D-C28A-4F60-B16A-1AD59AD802A1",
+      "modelId": "sb103147",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9A15307",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 663.3169555664062,
+          "y": -578.6500244140625,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "5D19C841-672F-4A30-9F69-0AC443BB6F09",
+      "modelId": "sb103147",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9A15307",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 644.1962280273438,
+          "y": -378.6499938964844,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "F545794E-E906-4918-BC0A-95A4BEFBC7BF",
+      "modelId": "sb103147",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9A15307",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 638.8771362304688,
+          "y": -178.65000915527344,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "94FFD3EB-372B-41A9-AD52-BB00B1611560",
+      "modelId": "sb106181",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03204",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -552.0050048828125,
+          "y": -1387.0999755859375,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "FBBE05F4-47BC-4AEC-810D-8E9963E5DC2C",
+      "modelId": "sb106181",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03204",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 248.19500732421875,
+          "y": -237.89996337890625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "0010FFC0-ED6B-4F06-B9C9-7B8897894F49",
+      "modelId": "sb106181",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03204",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 248.19500732421875,
+          "y": -637.9000244140625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "3A96859C-C2ED-4BE3-8C62-35BCB6B8557D",
+      "modelId": "sb106181",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03204",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 248.19500732421875,
+          "y": -987.9000244140625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "7AD2ECCF-ED44-4508-876E-EFCF0D5150CC",
+      "modelId": "sb106181",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03204",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 248.19500732421875,
+          "y": -437.89996337890625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "025CEF7A-C134-4FDD-A7F5-ED366AC62290",
+      "modelId": "sb106425",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03401",
+        "layer_id": "MountingPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 204.4350128173828,
+          "y": -910,
+          "z": 247.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "3DAF6ED5-A7EF-4D41-81FA-5479C95D6DCD",
+      "modelId": "sb106425",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03401",
+        "layer_id": "MountingPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 204.4350128173828,
+          "y": -1085,
+          "z": 247.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "F552D014-37BB-449A-A7A5-B580867BAEDC",
+      "modelId": "sb106425",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03401",
+        "layer_id": "MountingPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 204.4350128173828,
+          "y": -560,
+          "z": 247.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "B059C0A3-744E-4D78-B274-7470767A7754",
+      "modelId": "sb106425",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03401",
+        "layer_id": "MountingPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 204.4350128173828,
+          "y": -360,
+          "z": 247.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "3F057E01-247B-439A-9EDE-3C15D6F77B8F",
+      "modelId": "sb106425",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03401",
+        "layer_id": "MountingPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 204.4350128173828,
+          "y": -160,
+          "z": 247.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "4CF04996-385C-4404-9343-A809E92353C0",
+      "modelId": "sb106425",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03401",
+        "layer_id": "MountingPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -595.5650024414062,
+          "y": -1310,
+          "z": 247.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "27EB770A-F9B4-4D38-B946-0F1F220C18CA",
+      "modelId": "04502-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04502",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 18.149999618530273,
+          "y": -1400,
+          "z": 279.878173828125
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "9176FB4E-0080-40DA-A574-B9DBA34E6C16",
+      "modelId": "04502-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04502",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 43.150001525878906,
+          "y": -1400,
+          "z": 204.878173828125
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "2AF68191-6552-47C7-8894-9D33A277E2F1",
+      "modelId": "04502-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "04502",
+        "layer_id": "BUSBAR"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 68.1500015258789,
+          "y": -1400,
+          "z": 129.878173828125
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "98D3AAF2-D63D-4A22-87D7-B2A590E0E2DB",
+      "modelId": "sb106183",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03243",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 746.89501953125,
+          "y": 410.10003662109375,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "17AE3DF7-5260-470A-8392-70E5D5114592",
+      "modelId": "sb106196",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03805",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 248.19500732421875,
+          "y": -1387.9000244140625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "7D4BD5A2-E8BA-40D2-B724-75B82249E9FA",
+      "modelId": "sb106179",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03203",
+        "layer_id": "FrontPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 248.19500732421875,
+          "y": -1137.9000244140625,
+          "z": 355.47998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "8781A85B-2893-4A42-8FB2-9D11B5DA44EB",
+      "modelId": "sb105978",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "54444",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 318.5350036621094,
+          "y": -932.3999633789062,
+          "z": 309.6000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "628884A1-519E-4C80-B3BE-6DE94BD16055",
+      "modelId": "sb103499",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9A26897",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 327.5350036621094,
+          "y": -383.29998779296875,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.7375649154451543e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "35DF37DC-7C10-4D66-B144-05BF36FCC79B",
+      "modelId": "sb103499",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9A26897",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 372.5350036621094,
+          "y": -383.29998779296875,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.7375649154451543e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "78DF24F4-9868-42D4-9657-A0CDD9FB851A",
+      "modelId": "sb103499",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9A26897",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 417.5350036621094,
+          "y": -383.29998779296875,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.7375649154451543e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "8CB97F9A-F426-46B3-9BA3-E67A3BCF4797",
+      "modelId": "sb103499",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9A26897",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 282.5350036621094,
+          "y": -383.29998779296875,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.7375649154451543e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "1C995793-6449-49BB-9DF4-2718FB41E105",
+      "modelId": "sb100056",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "TRV00210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 355.14697265625,
+          "y": -1106.9000244140625,
+          "z": 310.45001220703125
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "0A083CC1-316C-46EC-B1E0-208A85467CE1",
+      "modelId": "sb100056",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "TRV00210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 373.5469055175781,
+          "y": -1106.9000244140625,
+          "z": 310.45001220703125
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "6795C01B-5175-4113-8CC0-9F12730EAC7E",
+      "modelId": "sb100056",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "TRV00210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 392.0765686035156,
+          "y": -1106.9000244140625,
+          "z": 310.45001220703125
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "63129121-2FCC-4B46-8310-C8B8C2395B23",
+      "modelId": "sb100056",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "TRV00210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 410.4284362792969,
+          "y": -1106.9000244140625,
+          "z": 310.45001220703125
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "F21BD0D6-3DEE-4A76-946A-F6D4424F7605",
+      "modelId": "08760d-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08760",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 972.4450073242188,
+          "y": -1494.5,
+          "z": -212
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "A4FDED1F-A94B-4A29-A991-1676D106E38D",
+      "modelId": "sb106247",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03452",
+        "layer_id": "MountingPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -608.0549926757812,
+          "y": -1173,
+          "z": 238.44000244140625
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "2CA167B8-F065-41EC-8CFB-4207B8E6D046",
+      "modelId": "sb110545",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "LV434011",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 282.5350036621094,
+          "y": -1106.9000244140625,
+          "z": 310.45001220703125
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "4A011E67-B2C3-4A75-9263-1E234F46ED40",
+      "modelId": "b103104",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9L16297",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 282.5350036621094,
+          "y": -189.5,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "E5DBAC5D-9CA4-4F24-8262-95B2BE8EE6BB",
+      "modelId": "b100591",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9Q61440",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 410.8349609375,
+          "y": -197.90000915527344,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "F284929A-7547-4CED-B6E6-FC0042D7A6F0",
+      "modelId": "sb100573",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9C62210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 462.5350036621094,
+          "y": -382.64996337890625,
+          "z": 313.77996826171875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "99FEEC3B-7EC8-4A24-A801-08ED10BCE7C2",
+      "modelId": "sb100573",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9C62210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 543.5350341796875,
+          "y": -382.64996337890625,
+          "z": 313.77996826171875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "C6276794-7F73-477A-B866-FA3562AD585B",
+      "modelId": "sb100573",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9C62210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 398.5350036621094,
+          "y": -582.6500244140625,
+          "z": 313.77996826171875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "59C6FAC8-6EC2-4BEB-B38A-DE46CC2FA43B",
+      "modelId": "sb100573",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9C62210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 480.5350036621094,
+          "y": -582.6500244140625,
+          "z": 313.77996826171875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "B87C8998-E709-4B91-B297-A77B35E4AE76",
+      "modelId": "sb100573",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9C62210",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 562.5350341796875,
+          "y": -582.6500244140625,
+          "z": 313.77996826171875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "78B57D39-CA25-43CC-85F5-D4F4D4063EE0",
+      "modelId": "sb100002",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "LV429008",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 287.44500732421875,
+          "y": 195.5,
+          "z": 275.8900146484375
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "CDB44D7E-3867-4331-8896-DF3676899A3B",
+      "modelId": "sb100002",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "LV429008",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 427.44500732421875,
+          "y": 195.5,
+          "z": 275.8900146484375
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "22E75E77-2E37-4419-B9DB-748CF0CD571F",
+      "modelId": "sb100002",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "LV429008",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 567.4450073242188,
+          "y": 195.5,
+          "z": 275.8900146484375
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "6C3A2311-941E-4F29-9A0D-D8CB6AC03C79",
+      "modelId": "sb100081",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "LV432415",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -370.05499267578125,
+          "y": -958.6500244140625,
+          "z": 251.44000244140625
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -89.99999999999997
+        }
+      }
+    },
+    {
+      "nodeId": "8047F3B4-ED32-4637-8F65-BADFEBE88A7C",
+      "modelId": "08566-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08566",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -592.0549926757812,
+          "y": -1411.9000244140625,
+          "z": 349.72998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "F5460AAC-F36D-4127-8100-BDD9C9897A57",
+      "modelId": "08566-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08566",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 786.9450073242188,
+          "y": 434.9000244140625,
+          "z": 349.72998046875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "909595AC-DBB0-428E-8858-33A70129108C",
+      "modelId": "sb106241",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "03420",
+        "layer_id": "MountingPlate"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 191.94500732421875,
+          "y": 198,
+          "z": 237.10000610351562
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "A7E321E3-A1F0-4062-9B0E-E29559E6B8E4",
+      "modelId": "sb103302",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9F04203",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 282.5350036621094,
+          "y": -933.2999877929688,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "D3B3623B-BDF7-4391-B363-F2F7704F4303",
+      "modelId": "sb103302",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9F04216",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 291.5350036621094,
+          "y": -383.29998779296875,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.7375649154451543e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "DC92BF28-062B-4E5D-B3CB-AABD5729B795",
+      "modelId": "sb103302",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9F04216",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 381.5350036621094,
+          "y": -383.29998779296875,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.7375649154451543e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "B3366DA5-EF71-4EA2-B786-62C14311E898",
+      "modelId": "sb103302",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9F04216",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 426.5350036621094,
+          "y": -383.29998779296875,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.7375649154451543e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "8255EB22-0729-46F3-BB88-2A0F1928CDD7",
+      "modelId": "sb106061",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08738",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -626.3049926757812,
+          "y": -1477,
+          "z": -221.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "4C4795B6-3752-4E42-A94B-D91AD0CD1A25",
+      "modelId": "sb106061",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08738",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 173.6949920654297,
+          "y": -1477,
+          "z": -221.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "14273835-8901-4138-8688-E94B22371E23",
+      "modelId": "sb109644",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "33725",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -442.7049865722656,
+          "y": -138.30003356933594,
+          "z": 89.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "1E7B74BD-2B13-4948-B4C5-89F49535A224",
+      "modelId": "sb100573",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9C62225",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 280.5450134277344,
+          "y": -582.6500244140625,
+          "z": 313.77996826171875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "017A7E9E-145A-4635-8068-A9D074E523C3",
+      "modelId": "sb103302",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9F04216",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 336.5350036621094,
+          "y": -383.29998779296875,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.7375649154451543e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "897C83A9-3070-4A37-BAEE-ABE917F9576F",
+      "modelId": "sb103304",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9F05463",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 414.63494873046875,
+          "y": -183.3000030517578,
+          "z": 309.1000061035156
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "5FAC564F-2E21-4690-B372-7AB204E8BE46",
+      "modelId": "sb109818",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9MEM2010",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 625.0477294921875,
+          "y": -383.70001220703125,
+          "z": 307.79998779296875
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "5978BDC4-07B4-42D7-B2D5-995144EC42EB",
+      "modelId": "sb109818",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9MEM2010",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 361.974609375,
+          "y": -583.7000122070312,
+          "z": 307.79998779296875
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "54EFD601-36E3-4C7C-91D6-D3946822BE2F",
+      "modelId": "sb109818",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9MEM2010",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 380.30035400390625,
+          "y": -583.7000122070312,
+          "z": 307.79998779296875
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "5A618E67-4970-4058-BAB9-BDBABAE01AA9",
+      "modelId": "sb109818",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "A9MEM2010",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 644.4337768554688,
+          "y": -583.7000122070312,
+          "z": 307.79998779296875
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "D996695B-3178-40C1-8491-7E556F653EB7",
+      "modelId": "sb109648",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "33324",
+        "layer_id": "Device"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -440.28497314453125,
+          "y": -125.90003967285156,
+          "z": 174
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "318FE922-3F99-477F-A4F7-463AA840F09C",
+      "modelId": "prismap-sideframe-d600",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -15.05499267578125,
+          "y": -1506,
+          "z": -211.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "ADBCED89-D68C-4F5D-A549-AFD7E52A6EF1",
+      "modelId": "prismap-sideframe-d600",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 134.9449920654297,
+          "y": -1506,
+          "z": -211.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "C6496243-490A-4E38-9D29-3C56BF24D3A7",
+      "modelId": "prismap-sideframe-d600",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 784.9450073242188,
+          "y": -1506,
+          "z": -211.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "3B05833B-CB14-4D49-828D-8A4C04F448D4",
+      "modelId": "prismap-sideframe-d600",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 934.9450073242188,
+          "y": -1506,
+          "z": -211.5
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "nodeId": "5353E6A5-2352-488D-85EB-37562FB3A9A7",
+      "modelId": "//sb106338",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08538",
+        "layer_id": "Door"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 969.4450073242188,
+          "y": 500,
+          "z": 387.0999755859375
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        }
+      }
+    },
+    {
+      "nodeId": "A27C0E7A-13B6-41AC-B7B6-A61443DE411B",
+      "modelId": "prismap-sideframe-d600",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -627.5549926757812,
+          "y": -1506,
+          "z": -211.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "71515AE6-918E-4104-8352-432985077300",
+      "modelId": "//sb106338",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08538",
+        "layer_id": "Door"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": -624.5549926757812,
+          "y": -1477,
+          "z": 387.0999755859375
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "9DAA4CF4-F70D-49E2-88FE-A2567A0F97E4",
+      "modelId": "01219-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08538",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 129.94500732421875,
+          "y": -599.25,
+          "z": 424.29998779296875
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -8.956799040351874e-38,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "A1C2D493-659F-4D4C-97B4-457CDBA32D6F",
+      "modelId": "prismap-sideframe-d600",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08607",
+        "layer_id": "ENCLOSURE"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 172.44500732421875,
+          "y": -1506,
+          "z": -211.5
+        },
+        "rotation": {
+          "x": 7.0167096047110005e-15,
+          "y": -1.737564112560276e-37,
+          "z": -7.0167096047110005e-15
+        }
+      }
+    },
+    {
+      "nodeId": "DAFE9420-5FD3-470F-B0E9-F85601D087D6",
+      "modelId": "01219-3d",
+      "modelParams": {},
+      "additionalInfo": {
+        "reference_id": "08538",
+        "layer_id": "Unknown"
+      },
+      "children": [],
+      "transformation": {
+        "position": {
+          "x": 177.94500732421875,
+          "y": -599.25,
+          "z": 424.29998779296875
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "transformation": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}
