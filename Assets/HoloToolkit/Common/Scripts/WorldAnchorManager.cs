@@ -9,6 +9,8 @@ using System.Collections.Generic;
 #if UNITY_2017_2_OR_NEWER
 using UnityEngine.XR.WSA;
 using UnityEngine.XR.WSA.Persistence;
+using UnityEngine.XR.WSA.Sharing;
+using HoloToolkit.Sharing;
 #else
 using UnityEngine.VR.WSA;
 using UnityEngine.VR.WSA.Persistence;
@@ -26,6 +28,7 @@ namespace HoloToolkit.Unity
     /// </summary>
     public class WorldAnchorManager : Singleton<WorldAnchorManager>
     {
+
         /// <summary>
         /// Debug text for displaying information.
         /// </summary>
@@ -558,6 +561,18 @@ namespace HoloToolkit.Unity
             }
         }
 
+
+        WorldAnchorTransferBatch currentAnchorTransferBatch;
+
+        public event Action<bool> AnchorUploaded;
+        private List<byte> _rawAnchorUploadData = new List<byte>(0);
+
+        public event Action<bool, GameObject> AnchorDownloaded;
+        private bool _isImportingAnchors;
+        private byte[] _rawAnchorDownloadData;
+
+        private const uint MinTrustworthySerializedAnchorDataSize = 100000;
+
         /// <summary>
         /// Called before creating anchor.  Used to check if import required.
         /// </summary>
@@ -566,6 +581,8 @@ namespace HoloToolkit.Unity
         /// <returns>Success.</returns>
         protected virtual bool ImportAnchor(string anchorId, GameObject objectToAnchor)
         {
+            _isImportingAnchors = true;
+            WorldAnchorTransferBatch.ImportAsync(_rawAnchorDownloadData, ImportComplete);
             return false;
         }
 
@@ -574,7 +591,135 @@ namespace HoloToolkit.Unity
         /// </summary>
         /// <param name="anchor">The anchor to export.</param>
         /// <returns>Success.</returns>
-        protected virtual void ExportAnchor(WorldAnchor anchor) { }
+        protected virtual void ExportAnchor(WorldAnchor anchor) {
+            currentAnchorTransferBatch = new WorldAnchorTransferBatch();
+            currentAnchorTransferBatch.AddWorldAnchor(anchor.name,                                                                                                                           anchor);
+            WorldAnchorTransferBatch.ExportAsync(currentAnchorTransferBatch, WriteBuffer, ExportComplete);
+        }
+
+        /// <summary>
+        /// Called by the WorldAnchorTransferBatch as anchor data is available.
+        /// </summary>
+        /// <param name="data"></param>
+        private void WriteBuffer(byte[] data)
+        {
+            _rawAnchorUploadData.AddRange(data);
+        }
+
+        /// <summary>
+        /// Called by the WorldAnchorTransferBatch when anchor exporting is complete.
+        /// </summary>
+        /// <param name="status">Serialization Status.</param>
+        private void ExportComplete(SerializationCompletionReason status)
+        {
+            if (status == SerializationCompletionReason.Succeeded &&
+                _rawAnchorUploadData.Count > MinTrustworthySerializedAnchorDataSize)
+            {
+                if (ShowDetailedLogs)
+                {
+                    Debug.LogFormat("[SharingWorldAnchorManager] Exporting {0} anchors with {1} bytes.", currentAnchorTransferBatch.anchorCount.ToString(), _rawAnchorUploadData.ToArray().Length.ToString());
+                }
+
+                if (AnchorDebugText != null)
+                {
+                    AnchorDebugText.text += string.Format("\nExporting {0} anchors with {1} bytes.",
+                        currentAnchorTransferBatch.anchorCount.ToString(),
+                        _rawAnchorUploadData.ToArray().Length.ToString());
+                }
+
+                string[] anchorNames = currentAnchorTransferBatch.GetAllIds();
+
+                for (var i = 0; i < anchorNames.Length; i++)
+                {
+                    SharingStage.Instance.Manager.GetRoomManager().UploadAnchor(
+                        SharingStage.Instance.CurrentRoom,
+                        new XString(anchorNames[i]),
+                        _rawAnchorUploadData.ToArray(),
+                        _rawAnchorUploadData.Count);
+                }
+            }
+            else
+            {
+                Debug.LogWarning("[SharingWorldAnchorManager] Failed to upload anchor!");
+
+                if (AnchorDebugText != null)
+                {
+                    AnchorDebugText.text += "\nFailed to upload anchor!";
+                }
+
+                if (_rawAnchorUploadData.Count < MinTrustworthySerializedAnchorDataSize)
+                {
+                    Debug.LogWarning("[SharingWorldAnchorManager] Anchor data was not valid.  Try creating the anchor again.");
+
+                    if (AnchorDebugText != null)
+                    {
+                        AnchorDebugText.text += "\nAnchor data was not valid.  Try creating the anchor again.";
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Called when a remote anchor has been deserialized.
+        /// </summary>
+        /// <param name="status"></param>
+        /// <param name="anchorBatch"></param>
+        private void ImportComplete(SerializationCompletionReason status, WorldAnchorTransferBatch anchorBatch)
+        {
+            bool successful = status == SerializationCompletionReason.Succeeded;
+            GameObject objectToAnchor = null;
+
+            if (successful)
+            {
+                if (ShowDetailedLogs)
+                {
+                    Debug.LogFormat("[SharingWorldAnchorManager] Successfully imported \"{0}\" anchors.", anchorBatch.anchorCount.ToString());
+                }
+
+                if (AnchorDebugText != null)
+                {
+                    AnchorDebugText.text += string.Format("\nSuccessfully imported \"{0}\" anchors.", anchorBatch.anchorCount.ToString());
+                }
+
+                string[] anchorNames = anchorBatch.GetAllIds();
+
+                for (var i = 0; i < anchorNames.Length; i++)
+                {
+                    if (AnchorGameObjectReferenceList.TryGetValue(anchorNames[i], out objectToAnchor))
+                    {
+                        AnchorStore.Save(anchorNames[i], anchorBatch.LockObject(anchorNames[i], objectToAnchor));
+                    }
+                    else
+                    {
+                        //TODO: Figure out how to get the GameObject reference from across the network.  For now it's best to use unique GameObject names.
+                        Debug.LogWarning("[SharingWorldAnchorManager] Unable to import anchor!  We don't know which GameObject to anchor!");
+
+                        if (AnchorDebugText != null)
+                        {
+                            AnchorDebugText.text += "\nUnable to import anchor!  We don\'t know which GameObject to anchor!";
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Debug.LogError("[SharingWorldAnchorManager] Import failed!");
+
+                if (AnchorDebugText != null)
+                {
+                    AnchorDebugText.text += "\nImport failed!";
+                }
+            }
+
+            if (AnchorDownloaded != null)
+            {
+                AnchorDownloaded(successful, objectToAnchor);
+            }
+
+            anchorBatch.Dispose();
+            _rawAnchorDownloadData = null;
+            _isImportingAnchors = false;
+        }
 #endif
     }
 }

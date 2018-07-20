@@ -7,10 +7,10 @@
 # Default behavior is to never overwrite files
 PiinkHoloDemo.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
-PiinkHoloDemo\App.cs: 4BB00DBA9F62A9AB95FA514166877E4D
+PiinkHoloDemo\App.cs: modified
 PiinkHoloDemo\AssemblyConverterArgs.txt: 174D75DCDB2D022CF26F77004B76364F
 PiinkHoloDemo\Package.appxmanifest: 5839C543FADA3E3585EF2F2FB2CE6586
-PiinkHoloDemo\PiinkHoloDemo.csproj: modified
+PiinkHoloDemo\PiinkHoloDemo.csproj: 9CE9DFF688CE1045BFF68C3AAB7910C6
 PiinkHoloDemo\PiinkHoloDemo.csproj.user: modified
 PiinkHoloDemo\project.json: 1D02BC64BAC0D041019673A1C4C51737
 PiinkHoloDemo\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
