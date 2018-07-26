@@ -104,6 +104,9 @@ namespace HoloToolkit.Unity
         protected virtual void Start()
         {
             WorldAnchorStore.GetAsync(AnchorStoreReady);
+            AnchorDebugText.text += "\n Start";
+            _rawAnchorUploadData = GameRoomManager.ReadAnchorsFromFile();
+            WorldAnchorTransferBatch.ImportAsync(_rawAnchorDownloadData, ImportComplete);
         }
 
         protected virtual void Update()
@@ -127,6 +130,8 @@ namespace HoloToolkit.Unity
         protected virtual void AnchorStoreReady(WorldAnchorStore anchorStore)
         {
             AnchorStore = anchorStore;
+
+            AnchorDebugText.text += "\n Anchor Cound : " + anchorStore.anchorCount;
 
             if (!PersistentAnchors)
             {
@@ -518,7 +523,7 @@ namespace HoloToolkit.Unity
                     AnchorDebugText.text += string.Format("\nSuccessfully saved anchor \"{0}\".", anchor.name);
                 }
 
-                ExportAnchor(anchor);
+                //ExportAnchor(anchor);
 
                 return true;
             }
@@ -581,8 +586,6 @@ namespace HoloToolkit.Unity
         /// <returns>Success.</returns>
         protected virtual bool ImportAnchor(string anchorId, GameObject objectToAnchor)
         {
-            _isImportingAnchors = true;
-            WorldAnchorTransferBatch.ImportAsync(_rawAnchorDownloadData, ImportComplete);
             return false;
         }
 
@@ -593,7 +596,7 @@ namespace HoloToolkit.Unity
         /// <returns>Success.</returns>
         protected virtual void ExportAnchor(WorldAnchor anchor) {
             currentAnchorTransferBatch = new WorldAnchorTransferBatch();
-            currentAnchorTransferBatch.AddWorldAnchor(anchor.name,                                                                                                                           anchor);
+            currentAnchorTransferBatch.AddWorldAnchor(anchor.name, anchor);
             WorldAnchorTransferBatch.ExportAsync(currentAnchorTransferBatch, WriteBuffer, ExportComplete);
         }
 
@@ -627,16 +630,19 @@ namespace HoloToolkit.Unity
                         _rawAnchorUploadData.ToArray().Length.ToString());
                 }
 
-                string[] anchorNames = currentAnchorTransferBatch.GetAllIds();
+                //string[] anchorNames = currentAnchorTransferBatch.GetAllIds();
 
-                for (var i = 0; i < anchorNames.Length; i++)
-                {
-                    SharingStage.Instance.Manager.GetRoomManager().UploadAnchor(
-                        SharingStage.Instance.CurrentRoom,
-                        new XString(anchorNames[i]),
-                        _rawAnchorUploadData.ToArray(),
-                        _rawAnchorUploadData.Count);
-                }
+                //for (var i = 0; i < anchorNames.Length; i++)
+                //{
+                //    SharingStage.Instance.Manager.GetRoomManager().UploadAnchor(
+                //        SharingStage.Instance.CurrentRoom,
+                //        new XString(anchorNames[i]),
+                //        _rawAnchorUploadData.ToArray(),
+                //        _rawAnchorUploadData.Count);
+                //}
+
+                GameRoomManager.WriteAnchorsToFile(_rawAnchorUploadData);
+                AnchorDebugText.text += "\n WriteOK";
             }
             else
             {
@@ -721,5 +727,5 @@ namespace HoloToolkit.Unity
             _isImportingAnchors = false;
         }
 #endif
-    }
-}
+            }
+        }

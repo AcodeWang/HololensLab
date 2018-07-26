@@ -5,6 +5,8 @@ using HoloToolkit.Unity.InputModule;
 
 public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
 
+    public Renderer _renderer;
+
     public Material[] defaultMaterials;
 
     [SerializeField]
@@ -12,6 +14,8 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
 
     // Use this for initialization
     void Start () {
+        _renderer = GetComponent<Renderer>();
+        _renderer.enabled = false;
         defaultMaterials = GetComponent<Renderer>().materials;
     }
 	
@@ -23,20 +27,34 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
 
     public void OnFocusEnter()
     {
-        for (int i = 0; i < defaultMaterials.Length; i++)
+        _renderer.enabled = true;
+        if(GetComponent<cakeslice.Outline>() == null)
         {
-            // 2.d: Uncomment the below line to highlight the material when gaze enters.
-            defaultMaterials[i].color = Color.blue;
+            var outline = gameObject.AddComponent<cakeslice.Outline>();
+        }
+
+        foreach (Material material in defaultMaterials)
+        {
+            material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+            material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+            material.SetInt("_ZWrite", 0);
+            material.DisableKeyword("_ALPHATEST_ON");
+            material.DisableKeyword("_ALPHABLEND_ON");
+            material.EnableKeyword("_ALPHAPREMULTIPLY_ON");
+            material.renderQueue = 3000;
+
+            material.SetFloat("_Mode", 3f);
+            material.SetColor("_Color", new Color(material.color.r, material.color.g, material.color.b, 0.2f));
         }
     }
 
     public void OnFocusExit()
     {
-        for (int i = 0; i < defaultMaterials.Length; i++)
+        if (GetComponent<cakeslice.Outline>() != null)
         {
-            // 2.d: Uncomment the below line to remove highlight on material when gaze exits.
-            defaultMaterials[i].color = Color.white;
+            Destroy(_renderer.GetComponent<cakeslice.Outline>());
         }
+        _renderer.enabled = false;
     }
 
     public void OnInputClicked(InputClickedEventData eventData)

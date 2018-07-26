@@ -122,6 +122,8 @@ namespace HoloToolkit.Unity.SpatialMapping
                 placementPosition = ParentGameObjectToPlace.transform.position + (placementPosition - gameObject.transform.position);
             }
 
+            placementPosition += new Vector3(0f, -0.02f, 0.03f);
+
             // update the placement to match the user's gaze.
             interpolator.SetTargetPosition(placementPosition);
 

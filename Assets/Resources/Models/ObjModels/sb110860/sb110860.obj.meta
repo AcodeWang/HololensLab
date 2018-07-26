@@ -1,0 +1,119 @@
+fileFormatVersion: 2
+guid: 5c84d1f3a7befda4db66de84eebccf65
+timeCreated: 1494862062
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SB110860_11906_PRT_PRT
+    100004: SB110860_11906_PRT_PRT__2_0
+    100006: SB110860_11906_PRT_PRT__4_0
+    100008: SB110860_11906_PRT_PRT__6_0
+    100010: SB110860_11967_PLATE_PRT
+    100012: SB110860_BRIDGE_69MM_BLACK_PRT
+    100014: SB110860_CLIP_V_22DOT2MM_PRT
+    100016: SB110860_CLIP_V_22DOT2MM_PRT__2_0
+    400000: //RootNode
+    400002: SB110860_11906_PRT_PRT
+    400004: SB110860_11906_PRT_PRT__2_0
+    400006: SB110860_11906_PRT_PRT__4_0
+    400008: SB110860_11906_PRT_PRT__6_0
+    400010: SB110860_11967_PLATE_PRT
+    400012: SB110860_BRIDGE_69MM_BLACK_PRT
+    400014: SB110860_CLIP_V_22DOT2MM_PRT
+    400016: SB110860_CLIP_V_22DOT2MM_PRT__2_0
+    2300000: SB110860_11906_PRT_PRT
+    2300002: SB110860_11906_PRT_PRT__2_0
+    2300004: SB110860_11906_PRT_PRT__4_0
+    2300006: SB110860_11906_PRT_PRT__6_0
+    2300008: SB110860_11967_PLATE_PRT
+    2300010: SB110860_BRIDGE_69MM_BLACK_PRT
+    2300012: SB110860_CLIP_V_22DOT2MM_PRT
+    2300014: SB110860_CLIP_V_22DOT2MM_PRT__2_0
+    3300000: SB110860_11906_PRT_PRT
+    3300002: SB110860_11906_PRT_PRT__2_0
+    3300004: SB110860_11906_PRT_PRT__4_0
+    3300006: SB110860_11906_PRT_PRT__6_0
+    3300008: SB110860_11967_PLATE_PRT
+    3300010: SB110860_BRIDGE_69MM_BLACK_PRT
+    3300012: SB110860_CLIP_V_22DOT2MM_PRT
+    3300014: SB110860_CLIP_V_22DOT2MM_PRT__2_0
+    4300000: SB110860_11906_PRT_PRT
+    4300002: SB110860_11906_PRT_PRT__2_0
+    4300004: SB110860_11906_PRT_PRT__4_0
+    4300006: SB110860_11906_PRT_PRT__6_0
+    4300008: SB110860_11967_PLATE_PRT
+    4300010: SB110860_BRIDGE_69MM_BLACK_PRT
+    4300012: SB110860_CLIP_V_22DOT2MM_PRT
+    4300014: SB110860_CLIP_V_22DOT2MM_PRT__2_0
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
