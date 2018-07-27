@@ -17,6 +17,11 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
         _renderer = GetComponent<Renderer>();
         _renderer.enabled = false;
         defaultMaterials = GetComponent<Renderer>().materials;
+
+        if(interactibleAction == null)
+        {
+            interactibleAction = GetComponent<BreakerClickAction>();
+        }
     }
 	
 	// Update is called once per frame

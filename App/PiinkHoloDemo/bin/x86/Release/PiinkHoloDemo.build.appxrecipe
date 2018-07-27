@@ -461,8 +461,8 @@
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\sharedassets0.resource">
-      <PackagePath>Data\sharedassets0.resource</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\resources.resource">
+      <PackagePath>Data\resources.resource</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -543,8 +543,8 @@
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AudioModule.dll">
-      <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ScreenCaptureModule.dll">
+      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
@@ -552,11 +552,11 @@
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ClothModule.dll">
-      <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AnimationModule.dll">
+      <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.DirectorModule.dll">
-      <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AudioModule.dll">
+      <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
@@ -564,29 +564,26 @@
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AccessibilityModule.dll">
-      <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AnimationModule.dll">
-      <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ClothModule.dll">
+      <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.dll">
-      <PackagePath>UnityEngine.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AccessibilityModule.dll">
+      <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ParticleSystemModule.dll">
-      <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.DirectorModule.dll">
+      <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.PerformanceReportingModule.dll">
-      <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.JSONSerializeModule.dll">
+      <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ScreenCaptureModule.dll">
-      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ParticleSystemModule.dll">
+      <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
@@ -594,23 +591,26 @@
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.PerformanceReportingModule.dll">
+      <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ImageConversionModule.dll">
-      <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.JSONSerializeModule.dll">
-      <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.dll">
+      <PackagePath>UnityEngine.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ImageConversionModule.dll">
+      <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -623,6 +623,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\TextMeshPro-2017.3-Runtime.dll">
+      <PackagePath>TextMeshPro-2017.3-Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.Analytics.dll">
       <PackagePath>UnityEngine.Analytics.dll</PackagePath>

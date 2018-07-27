@@ -104,9 +104,6 @@ namespace HoloToolkit.Unity
         protected virtual void Start()
         {
             WorldAnchorStore.GetAsync(AnchorStoreReady);
-            AnchorDebugText.text += "\n Start";
-            _rawAnchorUploadData = GameRoomManager.ReadAnchorsFromFile();
-            WorldAnchorTransferBatch.ImportAsync(_rawAnchorDownloadData, ImportComplete);
         }
 
         protected virtual void Update()
@@ -641,7 +638,6 @@ namespace HoloToolkit.Unity
                 //        _rawAnchorUploadData.Count);
                 //}
 
-                GameRoomManager.WriteAnchorsToFile(_rawAnchorUploadData);
                 AnchorDebugText.text += "\n WriteOK";
             }
             else
