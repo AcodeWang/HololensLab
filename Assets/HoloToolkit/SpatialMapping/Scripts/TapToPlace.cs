@@ -18,6 +18,7 @@ namespace HoloToolkit.Unity.SpatialMapping
     [RequireComponent(typeof(Interpolator))]
     public class TapToPlace : MonoBehaviour, IInputClickHandler
     {
+
         [Tooltip("Distance from camera to keep the object while placing it.")]
         public float DefaultGazeDistance = 2.0f;
 
@@ -53,6 +54,9 @@ namespace HoloToolkit.Unity.SpatialMapping
 
         protected virtual void Start()
         {
+            //axis = Instantiate(axisPrefab);
+            //axis.transform.parent = transform;
+
             if (PlaceParentOnTap)
             {
                 ParentGameObjectToPlace = GetParentToPlace();
@@ -105,6 +109,12 @@ namespace HoloToolkit.Unity.SpatialMapping
             if (!IsBeingPlaced) { return; }
             Transform cameraTransform = CameraCache.Main.transform;
 
+            RaycastHit hitInfo;
+            if (SpatialMappingRaycast(cameraTransform.position, cameraTransform.forward, out hitInfo))
+            {
+                interpolator.SetTargetRotation(Quaternion.LookRotation(Vector3.up, hitInfo.normal));
+            }
+
             Vector3 placementPosition = GetPlacementPosition(cameraTransform.position, cameraTransform.forward, DefaultGazeDistance);
 
             if (UseColliderCenter)
@@ -122,13 +132,13 @@ namespace HoloToolkit.Unity.SpatialMapping
                 placementPosition = ParentGameObjectToPlace.transform.position + (placementPosition - gameObject.transform.position);
             }
 
-            placementPosition += new Vector3(0f, -0.02f, 0.03f);
+            //placementPosition += new Vector3(0f, -0.02f, 0.03f);
 
             // update the placement to match the user's gaze.
             interpolator.SetTargetPosition(placementPosition);
 
             // Rotate this object to face the user.
-            interpolator.SetTargetRotation(Quaternion.Euler(0, cameraTransform.localEulerAngles.y, 0));
+            //interpolator.SetTargetRotation(Quaternion.Euler(0, cameraTransform.localEulerAngles.y, 0));
         }
 
         public virtual void OnInputClicked(InputClickedEventData eventData)

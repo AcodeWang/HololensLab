@@ -10,7 +10,7 @@ GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C5
 PiinkHoloDemo\App.cs: modified
 PiinkHoloDemo\AssemblyConverterArgs.txt: 82C5FDD5529989A35C0D2051E47F9E78
 PiinkHoloDemo\Package.appxmanifest: 5839C543FADA3E3585EF2F2FB2CE6586
-PiinkHoloDemo\PiinkHoloDemo.csproj: E20467B5B19C2347385DA7A36D3A890F
+PiinkHoloDemo\PiinkHoloDemo.csproj: modified
 PiinkHoloDemo\PiinkHoloDemo.csproj.user: modified
 PiinkHoloDemo\project.json: 1D02BC64BAC0D041019673A1C4C51737
 PiinkHoloDemo\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
