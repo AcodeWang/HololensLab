@@ -64,7 +64,7 @@ public class DOFPanelManager : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
 
-        //transform.position = m_original.transform.position + new Vector3(0.4f, 0, 0.4f);
+        transform.position = m_original.transform.position + m_original.transform.right * -0.4f ;
 
         if (!IsBeingPlaced) { return; }
         Transform cameraTransform = CameraCache.Main.transform;
@@ -97,9 +97,9 @@ public class DOFPanelManager : MonoBehaviour
     }
     private void StartPlacing()
     {
-        var layerCacheTarget = m_original;
-        layerCacheTarget.SetLayerRecursively(IgnoreRaycastLayer, out layerCache);
-        InputManager.Instance.PushModalInputHandler(gameObject);
+        //var layerCacheTarget = m_original;
+        //layerCacheTarget.SetLayerRecursively(IgnoreRaycastLayer, out layerCache);
+        //InputManager.Instance.PushModalInputHandler(gameObject);
 
         ToggleSpatialMesh();
         RemoveWorldAnchor();
@@ -107,9 +107,9 @@ public class DOFPanelManager : MonoBehaviour
 
     private void StopPlacing()
     {
-        var layerCacheTarget = m_original;
-        layerCacheTarget.ApplyLayerCacheRecursively(layerCache);
-        InputManager.Instance.PopModalInputHandler();
+        //var layerCacheTarget = m_original;
+        //layerCacheTarget.ApplyLayerCacheRecursively(layerCache);
+        //InputManager.Instance.PopModalInputHandler();
 
         ToggleSpatialMesh();
         AttachWorldAnchor();
@@ -290,11 +290,11 @@ public class DOFPanelManager : MonoBehaviour
         }
         else if (currentFineTuning == FineTuningToggle.Pz)
         {
-            m_original.transform.Translate(new Vector3(0, 0.01f * fineTuningCoef, 0));
+            m_original.transform.Translate(new Vector3(0, 0, 0.01f * fineTuningCoef));
         }
         else if (currentFineTuning == FineTuningToggle.Rx)
         {
-            m_original.transform.Rotate(transform.right, 0.5f * fineTuningCoef);
+            m_original.transform.Rotate(transform.right, -0.5f * fineTuningCoef);
         }
         else if (currentFineTuning == FineTuningToggle.Ry)
         {
@@ -323,11 +323,11 @@ public class DOFPanelManager : MonoBehaviour
         }
         else if (currentFineTuning == FineTuningToggle.Pz)
         {
-            m_original.transform.Translate(new Vector3(0, -0.01f * fineTuningCoef, 0));
+            m_original.transform.Translate(new Vector3(0, 0, -0.01f * fineTuningCoef));
         }
         else if (currentFineTuning == FineTuningToggle.Rx)
         {
-            m_original.transform.Rotate(transform.right, -0.5f * fineTuningCoef);
+            m_original.transform.Rotate(transform.right, 0.5f * fineTuningCoef);
         }
         else if (currentFineTuning == FineTuningToggle.Ry)
         {

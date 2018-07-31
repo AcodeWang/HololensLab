@@ -22,6 +22,10 @@ public class PlacebleObjectClickAction : InteractibleAction {
         {
             ParentGameObjectToPlace = GetParentToPlace();
         }
+        else
+        {
+            ParentGameObjectToPlace = gameObject;
+        }
     }
 	
 	// Update is called once per frame
@@ -31,14 +35,11 @@ public class PlacebleObjectClickAction : InteractibleAction {
 
     public override void PerformAction()
     {
-        if (PlaceParentOnTap)
-        {
-            dofPanel.m_original = ParentGameObjectToPlace;
-        }
-        else
-        {
-            dofPanel.m_original = gameObject;
-        }
+
+         dofPanel.m_original = ParentGameObjectToPlace;
+
+
+        Debug.Log("placment");
 
         dofPanel.IsBeingPlaced = !dofPanel.IsBeingPlaced;
         dofPanel.HandlePlacement();
