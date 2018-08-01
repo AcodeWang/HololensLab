@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class BreakerClickAction : InteractibleAction {
 
-    public InfoPanelManager infoPanelManager;
+    public BreakerData m_data;
 
     // Use this for initialization
     void Start () {
-        infoPanelManager = GameObject.Find("InfoPanel").GetComponent<InfoPanelManager>();
-	}
+
+        foreach (var breaker in FindObjectOfType<DataLoader>().bonduelleData.breakers)
+        {
+            if(breaker.id == gameObject.name)
+            {
+                m_data = breaker;
+            }
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -24,6 +31,7 @@ public class BreakerClickAction : InteractibleAction {
             this.GetComponent<InteractibleGO>().defaultMaterials[i].color = Color.red;
         }
 
-        infoPanelManager.description.text = this.name;
+
+        InfoPanelManager.Instance.description.text = m_data.info;
     }
 }

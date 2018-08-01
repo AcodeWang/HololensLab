@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using HoloToolkit.Unity.SpatialMapping;
+using HoloToolkit.Unity.InputModule;
 
-public class BroadcastReceiver : MonoBehaviour {
+public class BroadcastReceiver : MonoBehaviour  {
 
 	// Use this for initialization
 	void Start () {
@@ -17,23 +17,31 @@ public class BroadcastReceiver : MonoBehaviour {
 
     void ToggleUserMode()
     {
-        this.GetComponent<TapToPlace>().enabled = false;
-
         foreach (var interactibleGO in GetComponentsInChildren<InteractibleGO>())
         {
-            interactibleGO.enabled = true;
             interactibleGO.SetUnvisible();
+            interactibleGO.enabled = true;
+            if (interactibleGO.GetComponent<BreakerClickAction>() != null)
+            {
+                interactibleGO.interactibleAction = interactibleGO.GetComponent<BreakerClickAction>();
+            }
+            else
+            {
+                interactibleGO.interactibleAction = interactibleGO.gameObject.AddComponent<BreakerClickAction>();
+            }
         }
     }
 
     void ToggleDevelopMode()
     {
-        this.GetComponent<TapToPlace>().enabled = true;
-
         foreach (var interactibleGO in GetComponentsInChildren<InteractibleGO>())
         {
             interactibleGO.enabled = true;
             interactibleGO.SetVisible();
+            if (interactibleGO.GetComponent<PlacebleObjectClickAction>() != null)
+            {
+                interactibleGO.interactibleAction = interactibleGO.GetComponent<PlacebleObjectClickAction>();
+            }
         }
     }
 }

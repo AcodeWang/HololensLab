@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using HoloToolkit.Unity;
 
 public class PlacebleObjectClickAction : InteractibleAction {
 
     [Tooltip("Place parent on tap instead of current game object.")]
-    public bool PlaceParentOnTap;
+    public bool PlaceParentOnTap = true;
 
     public DOFPanelManager dofPanel;
 
@@ -16,6 +17,7 @@ public class PlacebleObjectClickAction : InteractibleAction {
 
     // Use this for initialization
     void Start () {
+
         dofPanel = FindObjectOfType<DOFPanelManager>();
 
         if (PlaceParentOnTap)
@@ -25,6 +27,12 @@ public class PlacebleObjectClickAction : InteractibleAction {
         else
         {
             ParentGameObjectToPlace = gameObject;
+        }
+
+        if (WorldAnchorManager.Instance != null)
+        {
+            // Add world anchor when object placement is done.
+            WorldAnchorManager.Instance.AttachAnchor(ParentGameObjectToPlace);
         }
     }
 	
@@ -36,10 +44,7 @@ public class PlacebleObjectClickAction : InteractibleAction {
     public override void PerformAction()
     {
 
-         dofPanel.m_original = ParentGameObjectToPlace;
-
-
-        Debug.Log("placment");
+        dofPanel.m_original = ParentGameObjectToPlace;
 
         dofPanel.IsBeingPlaced = !dofPanel.IsBeingPlaced;
         dofPanel.HandlePlacement();
@@ -49,7 +54,7 @@ public class PlacebleObjectClickAction : InteractibleAction {
     /// Returns the predefined GameObject or the immediate parent when it exists
     /// </summary>
     /// <returns></returns>
-    private GameObject GetParentToPlace()
+    public GameObject GetParentToPlace()
     {
         if (ParentGameObjectToPlace)
         {

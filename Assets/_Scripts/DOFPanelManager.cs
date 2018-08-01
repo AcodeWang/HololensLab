@@ -64,15 +64,19 @@ public class DOFPanelManager : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
 
-        transform.position = m_original.transform.position + m_original.transform.right * -0.4f ;
+        if (m_original != null)
+        {
+            transform.position = m_original.transform.position + m_original.transform.right * -0.4f;
+        }
 
         if (!IsBeingPlaced) { return; }
+
         Transform cameraTransform = CameraCache.Main.transform;
 
         RaycastHit hitInfo;
         if (SpatialMappingRaycast(cameraTransform.position, cameraTransform.forward, out hitInfo))
         {
-            m_original.transform.rotation = Quaternion.LookRotation(Vector3.up, hitInfo.normal);
+            m_original.transform.rotation = Quaternion.LookRotation(-hitInfo.normal, Vector3.up);
         }
 
         Vector3 placementPosition = GetPlacementPosition(cameraTransform.position, cameraTransform.forward, DefaultGazeDistance);
@@ -102,7 +106,7 @@ public class DOFPanelManager : MonoBehaviour
         //InputManager.Instance.PushModalInputHandler(gameObject);
 
         ToggleSpatialMesh();
-        RemoveWorldAnchor();
+        //RemoveWorldAnchor();
     }
 
     private void StopPlacing()
@@ -112,7 +116,7 @@ public class DOFPanelManager : MonoBehaviour
         //InputManager.Instance.PopModalInputHandler();
 
         ToggleSpatialMesh();
-        AttachWorldAnchor();
+        //AttachWorldAnchor();
     }
 
     private void AttachWorldAnchor()
@@ -133,6 +137,22 @@ public class DOFPanelManager : MonoBehaviour
         }
     }
 
+    public void SavePositionWorldAnchor()
+    {
+        AttachWorldAnchor();
+    }
+
+    public void RemovePositionWorldAnchor()
+    {
+        RemoveWorldAnchor();
+    }
+
+    void DOFPlacementOK()
+    {
+        IsBeingPlaced = false;
+        StopPlacing();
+    }
+
     /// <summary>
     /// If the user is in placing mode, display the spatial mapping mesh.
     /// </summary>
@@ -143,6 +163,7 @@ public class DOFPanelManager : MonoBehaviour
             SpatialMappingManager.Instance.DrawVisualMeshes = IsBeingPlaced;
         }
     }
+
 
     /// <summary>
     /// If we're using the spatial mapping, check to see if we got a hit, else use the gaze position.

@@ -10,7 +10,7 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
     public Material[] defaultMaterials;
 
     [SerializeField]
-    private InteractibleAction interactibleAction;
+    public InteractibleAction interactibleAction;
 
     // Use this for initialization
     void Start () {
@@ -51,25 +51,25 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
 
     public void OnFocusEnter()
     {
-        //_renderer.enabled = true;
-        //if(GetComponent<cakeslice.Outline>() == null)
-        //{
-        //    var outline = gameObject.AddComponent<cakeslice.Outline>();
-        //}
+        _renderer.enabled = true;
+        if (GetComponent<cakeslice.Outline>() == null)
+        {
+            var outline = gameObject.AddComponent<cakeslice.Outline>();
+        }
 
-        //foreach (Material material in defaultMaterials)
-        //{
-        //    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
-        //    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
-        //    material.SetInt("_ZWrite", 0);
-        //    material.DisableKeyword("_ALPHATEST_ON");
-        //    material.DisableKeyword("_ALPHABLEND_ON");
-        //    material.EnableKeyword("_ALPHAPREMULTIPLY_ON");
-        //    material.renderQueue = 3000;
+        foreach (Material material in defaultMaterials)
+        {
+            material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
+            material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+            material.SetInt("_ZWrite", 0);
+            material.DisableKeyword("_ALPHATEST_ON");
+            material.DisableKeyword("_ALPHABLEND_ON");
+            material.EnableKeyword("_ALPHAPREMULTIPLY_ON");
+            material.renderQueue = 3000;
 
-        //    material.SetFloat("_Mode", 3f);
-        //    material.SetColor("_Color", new Color(material.color.r, material.color.g, material.color.b, 0.2f));
-        //}
+            material.SetFloat("_Mode", 3f);
+            material.SetColor("_Color", new Color(material.color.r, material.color.g, material.color.b, 0.4f));
+        }
     }
 
     public void OnFocusExit()
@@ -78,7 +78,7 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
         {
             Destroy(_renderer.GetComponent<cakeslice.Outline>());
         }
-        //_renderer.enabled = false;
+        _renderer.enabled = false;
     }
 
     public void OnInputClicked(InputClickedEventData eventData)

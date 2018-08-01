@@ -109,12 +109,6 @@ namespace HoloToolkit.Unity.SpatialMapping
             if (!IsBeingPlaced) { return; }
             Transform cameraTransform = CameraCache.Main.transform;
 
-            RaycastHit hitInfo;
-            if (SpatialMappingRaycast(cameraTransform.position, cameraTransform.forward, out hitInfo))
-            {
-                interpolator.SetTargetRotation(Quaternion.LookRotation(Vector3.up, hitInfo.normal));
-            }
-
             Vector3 placementPosition = GetPlacementPosition(cameraTransform.position, cameraTransform.forward, DefaultGazeDistance);
 
             if (UseColliderCenter)
@@ -138,7 +132,7 @@ namespace HoloToolkit.Unity.SpatialMapping
             interpolator.SetTargetPosition(placementPosition);
 
             // Rotate this object to face the user.
-            //interpolator.SetTargetRotation(Quaternion.Euler(0, cameraTransform.localEulerAngles.y, 0));
+            interpolator.SetTargetRotation(Quaternion.Euler(0, cameraTransform.localEulerAngles.y, 0));
         }
 
         public virtual void OnInputClicked(InputClickedEventData eventData)

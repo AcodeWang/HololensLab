@@ -5,12 +5,24 @@ using UnityEngine.UI;
 
 public class InfoPanelManager : MonoBehaviour {
 
+    private static InfoPanelManager instance;
+
+    public static InfoPanelManager Instance
+    {
+        get
+        {
+            return instance;
+        }
+    }
+
     public Text id;
     public RawImage image;
     public Text description;
 
     // Use this for initialization
-    void Start () {
+    void Awake () {
+
+        instance = FindObjectOfType<InfoPanelManager>();
 
         id = transform.Find("Content").Find("ID").GetComponent<Text>();
         image = transform.Find("Content").Find("Image").GetComponent<RawImage>();

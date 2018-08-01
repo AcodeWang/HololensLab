@@ -1,0 +1,18 @@
+{
+
+	"breakers": [
+		{
+			"id" : "1C10",
+			"line" : "1",
+			"description" : "6 x PC Salle Reunion B10",
+			"info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+		},
+		{
+			"id" : "2C10",
+			"line" : "2",
+			"description" : "6 x PC Salle Reunion B10",
+			"info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+		}
+	]
+
+}

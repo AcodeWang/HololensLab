@@ -25,4 +25,9 @@ public class BroadcastManager : MonoBehaviour {
         Debug.Log("Develop mode");
         BroadcastMessage("ToggleDevelopMode");
     }
+
+    public void SendPlacementOK()
+    {
+        BroadcastMessage("DOFPlacementOK");
+    }
 }
