@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-01T09:25:05.718</Modified>
+      <Modified>2018-08-03T14:16:05.650</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\bin\x86\Release\PiinkHoloDemo.exe">
       <PackagePath>entrypoint\PiinkHoloDemo.exe</PackagePath>
-      <Modified>2018-08-01T09:24:51.413</Modified>
+      <Modified>2018-08-03T14:15:51.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -501,7 +501,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2018-08-01T09:24:17.991</Modified>
+      <Modified>2018-08-03T14:10:44.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -564,15 +564,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2018-08-01T09:24:06.001</Modified>
+      <Modified>2018-08-03T14:10:33.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2018-08-01T09:24:03.469</Modified>
+      <Modified>2018-08-03T14:10:30.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2018-08-01T09:23:58.727</Modified>
+      <Modified>2018-08-03T14:10:25.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -580,43 +580,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2018-08-01T09:24:05.997</Modified>
+      <Modified>2018-08-03T14:10:33.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2018-08-01T09:24:03.557</Modified>
+      <Modified>2018-08-03T14:10:30.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2018-08-01T09:24:04.580</Modified>
+      <Modified>2018-08-03T14:10:31.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2018-08-01T09:24:05.631</Modified>
+      <Modified>2018-08-03T14:10:32.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2018-08-01T09:23:58.724</Modified>
+      <Modified>2018-08-03T14:10:25.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2018-08-01T09:24:04.575</Modified>
+      <Modified>2018-08-03T14:10:31.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2018-08-01T09:24:05.623</Modified>
+      <Modified>2018-08-03T14:10:32.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2018-08-01T09:24:17.935</Modified>
+      <Modified>2018-08-03T14:10:44.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2018-08-01T09:24:17.936</Modified>
+      <Modified>2018-08-03T14:10:44.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Data\resources.resource">
       <PackagePath>Data\resources.resource</PackagePath>
-      <Modified>2018-08-01T09:24:04.587</Modified>
+      <Modified>2018-08-03T14:10:31.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -625,243 +625,243 @@
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-01T09:24:52.180</Modified>
+      <Modified>2018-08-03T14:15:52.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.411</Modified>
+      <Modified>2018-08-03T14:16:04.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.416</Modified>
+      <Modified>2018-08-03T14:16:04.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.419</Modified>
+      <Modified>2018-08-03T14:16:04.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.428</Modified>
+      <Modified>2018-08-03T14:16:04.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.455</Modified>
+      <Modified>2018-08-03T14:16:04.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.459</Modified>
+      <Modified>2018-08-03T14:16:04.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.464</Modified>
+      <Modified>2018-08-03T14:16:04.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.468</Modified>
+      <Modified>2018-08-03T14:16:04.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.475</Modified>
+      <Modified>2018-08-03T14:16:04.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.480</Modified>
+      <Modified>2018-08-03T14:16:04.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.489</Modified>
+      <Modified>2018-08-03T14:16:04.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.505</Modified>
+      <Modified>2018-08-03T14:16:04.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.510</Modified>
+      <Modified>2018-08-03T14:16:04.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.515</Modified>
+      <Modified>2018-08-03T14:16:04.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.520</Modified>
+      <Modified>2018-08-03T14:16:04.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.XRModule.dll">
       <PackagePath>UnityEngine.XRModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.526</Modified>
+      <Modified>2018-08-03T14:16:04.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.529</Modified>
+      <Modified>2018-08-03T14:16:04.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UnityWebRequestAssetBundleModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAssetBundleModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.533</Modified>
+      <Modified>2018-08-03T14:16:04.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.537</Modified>
+      <Modified>2018-08-03T14:16:04.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.541</Modified>
+      <Modified>2018-08-03T14:16:04.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.545</Modified>
+      <Modified>2018-08-03T14:16:04.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.549</Modified>
+      <Modified>2018-08-03T14:16:04.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.553</Modified>
+      <Modified>2018-08-03T14:16:04.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.559</Modified>
+      <Modified>2018-08-03T14:16:04.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.562</Modified>
+      <Modified>2018-08-03T14:16:04.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.566</Modified>
+      <Modified>2018-08-03T14:16:04.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.573</Modified>
+      <Modified>2018-08-03T14:16:04.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.586</Modified>
+      <Modified>2018-08-03T14:16:04.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.595</Modified>
+      <Modified>2018-08-03T14:16:04.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.599</Modified>
+      <Modified>2018-08-03T14:16:04.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.837</Modified>
+      <Modified>2018-08-03T14:16:04.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.842</Modified>
+      <Modified>2018-08-03T14:16:04.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.857</Modified>
+      <Modified>2018-08-03T14:16:04.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.861</Modified>
+      <Modified>2018-08-03T14:16:04.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.865</Modified>
+      <Modified>2018-08-03T14:16:04.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.868</Modified>
+      <Modified>2018-08-03T14:16:04.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.872</Modified>
+      <Modified>2018-08-03T14:16:04.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.888</Modified>
+      <Modified>2018-08-03T14:16:04.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.898</Modified>
+      <Modified>2018-08-03T14:16:04.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.910</Modified>
+      <Modified>2018-08-03T14:16:04.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.913</Modified>
+      <Modified>2018-08-03T14:16:04.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.917</Modified>
+      <Modified>2018-08-03T14:16:04.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.922</Modified>
+      <Modified>2018-08-03T14:16:04.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2018-08-01T09:24:10.052</Modified>
+      <Modified>2018-08-03T14:10:36.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.927</Modified>
+      <Modified>2018-08-03T14:16:04.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.943</Modified>
+      <Modified>2018-08-03T14:16:04.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.947</Modified>
+      <Modified>2018-08-03T14:16:04.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.988</Modified>
+      <Modified>2018-08-03T14:16:04.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.026</Modified>
+      <Modified>2018-08-03T14:16:04.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.104</Modified>
+      <Modified>2018-08-03T14:16:05.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.110</Modified>
+      <Modified>2018-08-03T14:16:05.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\TextMeshPro-2017.3-Runtime.dll">
       <PackagePath>TextMeshPro-2017.3-Runtime.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.139</Modified>
+      <Modified>2018-08-03T14:16:05.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.Analytics.dll">
       <PackagePath>UnityEngine.Analytics.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.149</Modified>
+      <Modified>2018-08-03T14:16:05.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.162</Modified>
+      <Modified>2018-08-03T14:16:05.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.172</Modified>
+      <Modified>2018-08-03T14:16:05.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.232</Modified>
+      <Modified>2018-08-03T14:16:05.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2018-08-01T09:25:05.254</Modified>
+      <Modified>2018-08-03T14:16:05.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2018-08-01T09:25:04.404</Modified>
+      <Modified>2018-08-03T14:16:04.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YCY\Documents\UnityProjects\HololensLab\App\PiinkHoloDemo\bin\x86\Release\Core\PiinkHoloDemo.exe">
       <PackagePath>PiinkHoloDemo.exe</PackagePath>
-      <Modified>2018-08-01T09:25:05.715</Modified>
+      <Modified>2018-08-03T14:16:05.645</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
