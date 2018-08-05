@@ -315,15 +315,15 @@ public class DOFPanelManager : MonoBehaviour
         }
         else if (currentFineTuning == FineTuningToggle.Rx)
         {
-            m_original.transform.Rotate(transform.right, -0.5f * fineTuningCoef);
+            m_original.transform.Rotate(m_original.transform.right, -0.5f * fineTuningCoef);
         }
         else if (currentFineTuning == FineTuningToggle.Ry)
         {
-            m_original.transform.Rotate(transform.up, -0.5f * fineTuningCoef);
+            m_original.transform.Rotate(m_original.transform.up, -0.5f * fineTuningCoef);
         }
         else if (currentFineTuning == FineTuningToggle.Rz)
         {
-            m_original.transform.Rotate(transform.forward, -0.5f * fineTuningCoef);
+            m_original.transform.Rotate(m_original.transform.forward, -0.5f * fineTuningCoef);
         }
 
     }
@@ -348,15 +348,15 @@ public class DOFPanelManager : MonoBehaviour
         }
         else if (currentFineTuning == FineTuningToggle.Rx)
         {
-            m_original.transform.Rotate(transform.right, 0.5f * fineTuningCoef);
+            m_original.transform.Rotate(m_original.transform.right, 0.5f * fineTuningCoef);
         }
         else if (currentFineTuning == FineTuningToggle.Ry)
         {
-            m_original.transform.Rotate(transform.up, 0.5f * fineTuningCoef);
+            m_original.transform.Rotate(m_original.transform.up, 0.5f * fineTuningCoef);
         }
         else if (currentFineTuning == FineTuningToggle.Rz)
         {
-            m_original.transform.Rotate(transform.forward, 0.5f * fineTuningCoef);
+            m_original.transform.Rotate(m_original.transform.forward, 0.5f * fineTuningCoef);
         }
     }
 }

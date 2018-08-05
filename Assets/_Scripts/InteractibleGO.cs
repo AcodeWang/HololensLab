@@ -12,6 +12,8 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
     [SerializeField]
     public InteractibleAction interactibleAction;
 
+    int gameMode = 1;
+
     // Use this for initialization
     void Start () {
         _renderer = GetComponent<Renderer>();
@@ -35,6 +37,7 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
         }
 
         _renderer.enabled = false;
+        gameMode = 0;
     }
 
     public void SetVisible()
@@ -46,11 +49,17 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
         }
 
         _renderer.enabled = true;
+        gameMode = 1;
     }
 
 
     public void OnFocusEnter()
     {
+        if(gameMode == 1)
+        {
+            return;
+        }
+
         _renderer.enabled = true;
         if (GetComponent<cakeslice.Outline>() == null)
         {
@@ -74,6 +83,11 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
 
     public void OnFocusExit()
     {
+        if (gameMode == 1)
+        {
+            return;
+        }
+
         if (GetComponent<cakeslice.Outline>() != null)
         {
             Destroy(_renderer.GetComponent<cakeslice.Outline>());
