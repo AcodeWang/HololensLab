@@ -12,13 +12,14 @@ public class BreakerClickAction : InteractibleAction {
 
         foreach (var bonduelledata in FindObjectOfType<DataLoader>().bonduelleData.bonduelledatas)
         {
-            if(bonduelledata.id == gameObject.transform.parent.name)
+            if(bonduelledata.id + "F" == gameObject.transform.parent.name)
             {
                 foreach(var breakerdata in bonduelledata.breakers)
                 {
                     if(name == breakerdata.id)
                     {
                         m_data = breakerdata;
+                        m_data.upstream = bonduelledata.id;
                         break;
                     }
                 }
@@ -38,18 +39,14 @@ public class BreakerClickAction : InteractibleAction {
 
     public override void PerformAction()
     {
-        for (int i = 0; i < this.GetComponent<InteractibleGO>().defaultMaterials.Length; i++)
-        {
-            // 2.d: Uncomment the below line to highlight the material when gaze enters.
-            this.GetComponent<InteractibleGO>().defaultMaterials[i].color = Color.red;
-        }
-
         Debug.Log("Clicked");
 
         if (m_data == null)
             return;
 
         infoPanel.SetActive(true);
+
+        InfoPanelManager.Instance.Breaker = gameObject;
 
         InfoPanelManager.Instance.description.text = m_data.id + "\n" + m_data.description;
         InfoPanelManager.Instance.level.text = "Level " + m_data.level;

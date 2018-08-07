@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4501133, g: 0.50015503, b: 0.5754584, a: 1}
+  m_IndirectSpecularColor: {r: 0.4501136, g: 0.50015557, b: 0.5754593, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 900710780}
   m_Layer: 0
-  m_Name: AC23160
+  m_Name: AC23160F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -458,6 +458,7 @@ GameObject:
   - component: {fileID: 115881632}
   - component: {fileID: 115881631}
   - component: {fileID: 115881630}
+  - component: {fileID: 115881634}
   m_Layer: 0
   m_Name: 20726
   m_TagString: Untagged
@@ -491,9 +492,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!65 &115881631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -554,6 +560,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 115881628}
   m_Mesh: {fileID: 4300000, guid: 5c84d1f3a7befda4db66de84eebccf65, type: 3}
+--- !u!114 &115881634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115881628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c00629f43966441b384d8746e66021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoPanel: {fileID: 0}
+  m_data:
+    id: 
+    level: 
+    description: 
+    connection: 
+    location: 
+    info: 
+    upstream: 
 --- !u!1 &168396394
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,6 +843,7 @@ GameObject:
   - component: {fileID: 207147544}
   - component: {fileID: 207147543}
   - component: {fileID: 207147542}
+  - component: {fileID: 207147546}
   m_Layer: 0
   m_Name: 20729
   m_TagString: Untagged
@@ -850,9 +877,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!65 &207147543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -913,6 +945,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 207147540}
   m_Mesh: {fileID: 4300000, guid: 5c84d1f3a7befda4db66de84eebccf65, type: 3}
+--- !u!114 &207147546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207147540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c00629f43966441b384d8746e66021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoPanel: {fileID: 0}
+  m_data:
+    id: 
+    level: 
+    description: 
+    connection: 
+    location: 
+    info: 
+    upstream: 
 --- !u!1001 &240778647
 Prefab:
   m_ObjectHideFlags: 0
@@ -1860,7 +1912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &533827032
 Transform:
   m_ObjectHideFlags: 0
@@ -1868,8 +1920,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 533827031}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.142, y: 0.139, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.0009999999}
+  m_LocalPosition: {x: -0.133, y: 0.127, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.0009999999}
   m_Children: []
   m_Father: {fileID: 1929532539}
   m_RootOrder: 0
@@ -3085,6 +3137,7 @@ GameObject:
   - component: {fileID: 773190233}
   - component: {fileID: 773190232}
   - component: {fileID: 773190231}
+  - component: {fileID: 773190235}
   m_Layer: 0
   m_Name: 20726
   m_TagString: Untagged
@@ -3118,9 +3171,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!65 &773190232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3181,6 +3239,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 773190229}
   m_Mesh: {fileID: 4300000, guid: 5c84d1f3a7befda4db66de84eebccf65, type: 3}
+--- !u!114 &773190235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 773190229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c00629f43966441b384d8746e66021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoPanel: {fileID: 0}
+  m_data:
+    id: 
+    level: 
+    description: 
+    connection: 
+    location: 
+    info: 
+    upstream: 
 --- !u!1 &774237719
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,6 +3508,7 @@ GameObject:
   - component: {fileID: 845719448}
   - component: {fileID: 845719447}
   - component: {fileID: 845719446}
+  - component: {fileID: 845719450}
   m_Layer: 0
   m_Name: A23158
   m_TagString: Untagged
@@ -3463,10 +3542,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 114362387042372914, guid: deb8cfac8335e1844ba20e249c1bfb31,
     type: 2}
+  m_status: 0
 --- !u!65 &845719447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3527,6 +3611,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 845719444}
   m_Mesh: {fileID: 4300000, guid: 0973fe4d2bc6f25439f36a72e0c381a0, type: 3}
+--- !u!114 &845719450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 845719444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c00629f43966441b384d8746e66021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoPanel: {fileID: 0}
+  m_data:
+    id: 
+    level: 
+    description: 
+    connection: 
+    location: 
+    info: 
+    upstream: 
 --- !u!1 &851651160
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,7 +3648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &851651161
 Transform:
   m_ObjectHideFlags: 0
@@ -3552,8 +3656,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 851651160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09799999, y: -0.22100002, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.0009999999}
+  m_LocalPosition: {x: 0.083, y: -0.177, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.0009999999}
   m_Children: []
   m_Father: {fileID: 1929532539}
   m_RootOrder: 3
@@ -3780,9 +3884,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 0}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!114 &917582190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4103,7 +4212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1066288556
 Transform:
   m_ObjectHideFlags: 0
@@ -4111,8 +4220,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1066288555}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09799999, y: 0.139, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.001}
+  m_LocalPosition: {x: 0.083, y: 0.13, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.001}
   m_Children: []
   m_Father: {fileID: 1929532539}
   m_RootOrder: 1
@@ -4795,9 +4904,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!65 &1223773143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4877,6 +4991,7 @@ MonoBehaviour:
     connection: 
     location: 
     info: 
+    upstream: 
 --- !u!1 &1234261144
 GameObject:
   m_ObjectHideFlags: 0
@@ -5615,6 +5730,7 @@ GameObject:
   - component: {fileID: 1375737372}
   - component: {fileID: 1375737371}
   - component: {fileID: 1375737370}
+  - component: {fileID: 1375737374}
   m_Layer: 0
   m_Name: 20727
   m_TagString: Untagged
@@ -5648,9 +5764,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!65 &1375737371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5711,6 +5832,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1375737368}
   m_Mesh: {fileID: 4300000, guid: 5c84d1f3a7befda4db66de84eebccf65, type: 3}
+--- !u!114 &1375737374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1375737368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c00629f43966441b384d8746e66021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoPanel: {fileID: 0}
+  m_data:
+    id: 
+    level: 
+    description: 
+    connection: 
+    location: 
+    info: 
+    upstream: 
 --- !u!1 &1389656142
 GameObject:
   m_ObjectHideFlags: 0
@@ -5873,6 +6014,7 @@ GameObject:
   - component: {fileID: 1416480581}
   - component: {fileID: 1416480580}
   - component: {fileID: 1416480579}
+  - component: {fileID: 1416480583}
   m_Layer: 0
   m_Name: 20727
   m_TagString: Untagged
@@ -5906,9 +6048,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!65 &1416480580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5969,6 +6116,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1416480577}
   m_Mesh: {fileID: 4300000, guid: 5c84d1f3a7befda4db66de84eebccf65, type: 3}
+--- !u!114 &1416480583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1416480577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c00629f43966441b384d8746e66021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoPanel: {fileID: 0}
+  m_data:
+    id: 
+    level: 
+    description: 
+    connection: 
+    location: 
+    info: 
+    upstream: 
 --- !u!224 &1435014371 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224913597956212012, guid: 23f430918e4a3f64ea37ce6a5e7c1c8a,
@@ -6437,6 +6604,7 @@ GameObject:
   - component: {fileID: 1498013744}
   - component: {fileID: 1498013743}
   - component: {fileID: 1498013742}
+  - component: {fileID: 1498013746}
   m_Layer: 0
   m_Name: AC23160
   m_TagString: Untagged
@@ -6470,9 +6638,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!65 &1498013743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6533,6 +6706,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1498013740}
   m_Mesh: {fileID: 4300000, guid: 0973fe4d2bc6f25439f36a72e0c381a0, type: 3}
+--- !u!114 &1498013746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498013740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c00629f43966441b384d8746e66021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoPanel: {fileID: 0}
+  m_data:
+    id: 
+    level: 
+    description: 
+    connection: 
+    location: 
+    info: 
+    upstream: 
 --- !u!1001 &1505523250
 Prefab:
   m_ObjectHideFlags: 0
@@ -6719,6 +6912,15 @@ Prefab:
     - target: {fileID: 114137712277072836, guid: a96697806c88131408cf6d44bc347211,
         type: 2}
       propertyPath: PlaceParentOnTap
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1470802399578848, guid: a96697806c88131408cf6d44bc347211, type: 2}
+      propertyPath: m_Name
+      value: Wall_plug
+      objectReference: {fileID: 0}
+    - target: {fileID: 114485213341561376, guid: a96697806c88131408cf6d44bc347211,
+        type: 2}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7156,6 +7358,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screwAnimator: {fileID: 1929532540}
+  LastBreaker: {fileID: 0}
+  Breaker: {fileID: 0}
   clickAction: {fileID: 1634182912}
   id: {fileID: 1197593318}
   level: {fileID: 1073960179}
@@ -7188,7 +7392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 314060539}
   m_Layer: 0
-  m_Name: A23158
+  m_Name: A23158F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7303,7 +7507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1720718551
 Transform:
   m_ObjectHideFlags: 0
@@ -7311,8 +7515,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1720718550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.142, y: -0.22100002, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.0009999999}
+  m_LocalPosition: {x: -0.13, y: -0.177, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.0009999999}
   m_Children: []
   m_Father: {fileID: 1929532539}
   m_RootOrder: 2
@@ -7720,9 +7924,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 0}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 1874862250}
+  m_status: 0
 --- !u!64 &1874862252
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7923,7 +8132,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1929532538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.026}
+  m_LocalPosition: {x: 0, y: 0, z: -0.075}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 533827032}
@@ -7940,7 +8149,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1929532538}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f22d6da62c671404cb730cfad4aeab32, type: 2}
   m_CullingMode: 0
@@ -8011,6 +8220,7 @@ MonoBehaviour:
     connection: 
     location: 
     info: 
+    upstream: 
 --- !u!114 &1964602100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8023,9 +8233,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761012446f1b2a94a8baedddbe4353c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1550112416955000, guid: 62a10a33139b3ce42b9b6409646e95ea, type: 2}
+  upstream: {fileID: 0}
+  conncetionLine: {fileID: 0}
+  connectObject: {fileID: 0}
   _renderer: {fileID: 0}
   defaultMaterials: []
   interactibleAction: {fileID: 0}
+  m_status: 0
 --- !u!65 &1964602101
 BoxCollider:
   m_ObjectHideFlags: 0

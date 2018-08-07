@@ -52,7 +52,7 @@
           "id": "20725",
           "level": "2",
           "description": "C10 230V ~ 3000[3]",
-          "connection": "6 x PC Salle Reunion B10",
+          "connection": "Wall_plug",
           "location": "Salle de reunion B10",
           "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
         },

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class InfoPanelManager : MonoBehaviour, IInputClickHandler
 {
 
+
     public Animator screwAnimator;
 
     private static InfoPanelManager instance;
@@ -18,6 +19,9 @@ public class InfoPanelManager : MonoBehaviour, IInputClickHandler
             return instance;
         }
     }
+
+    public GameObject LastBreaker;
+    public GameObject Breaker;
 
     public InteractibleAction clickAction;
 
@@ -38,6 +42,22 @@ public class InfoPanelManager : MonoBehaviour, IInputClickHandler
 	// Update is called once per frame
 	void Update () {
         transform.localScale = Mathf.Clamp01(Vector3.Distance(transform.position, Camera.main.transform.position) / 2) * Vector3.one;
+        
+        if(Breaker != null)
+        {
+            if(LastBreaker == null)
+            {
+                LastBreaker = Breaker;
+                Breaker.GetComponent<InteractibleGO>().FocusedInfoPanel(Breaker.GetComponent<BreakerClickAction>().m_data);
+            }
+
+            if(Breaker != LastBreaker)
+            {
+                LastBreaker.GetComponent<InteractibleGO>().UnFocusedInfoPanel();
+                Breaker.GetComponent<InteractibleGO>().FocusedInfoPanel(Breaker.GetComponent<BreakerClickAction>().m_data);
+                LastBreaker = Breaker;
+            }
+        }
     }
 
     public void RepairButtonClick()
@@ -57,6 +77,8 @@ public class InfoPanelManager : MonoBehaviour, IInputClickHandler
 
     public void DisableInfoPanel()
     {
+        LastBreaker = null;
+        Breaker = null;
         gameObject.SetActive(false);
     }
 

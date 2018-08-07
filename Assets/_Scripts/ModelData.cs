@@ -21,4 +21,5 @@ public class BreakerData
     public string connection;
     public string location;
     public string info;
+    public string upstream;
 }
