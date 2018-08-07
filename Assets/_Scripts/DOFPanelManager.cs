@@ -66,7 +66,7 @@ public class DOFPanelManager : MonoBehaviour
 
         if (m_original != null)
         {
-            transform.position = m_original.transform.position + m_original.transform.right * -0.4f;
+            transform.position = m_original.transform.position + m_original.transform.right * -0.4f + m_original.transform.forward * -0.2f;
         }
 
         if (!IsBeingPlaced) { return; }

@@ -1,18 +1,86 @@
 {
-
-	"breakers": [
-		{
-			"id" : "1C10",
-			"line" : "1",
-			"description" : "6 x PC Salle Reunion B10",
-			"info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
-		},
-		{
-			"id" : "2C10",
-			"line" : "2",
-			"description" : "6 x PC Salle Reunion B10",
-			"info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
-		}
-	]
-
+  "bonduelledatas": [
+    {
+      "id": "AC23160",
+      "breakers": [
+        {
+          "id": "AC23160",
+          "level": "1",
+          "description": "Type AC 40A 230V ~ 30mA",
+          "connection": "6 x PC Salle Reunion B10",
+          "location": "Salle de reunion B10",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        },
+        {
+          "id": "20725",
+          "level": "1",
+          "description": "C10 230V ~ 3000[3]",
+          "connection": "6 x PC Salle Reunion B10",
+          "location": "Salle de reunion B10",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        },
+        {
+          "id": "20726",
+          "level": "1",
+          "description": "C16 230V ~ 3000[3]",
+          "connection": "6 x PC Salle Reunion B16",
+          "location": "Salle de reunion B16",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        },
+        {
+          "id": "20727",
+          "level": "1",
+          "description": "C20 230V ~ 3000[3]",
+          "connection": "6 x PC Salle Reunion B17",
+          "location": "Salle de reunion B17",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        }
+      ]
+    },
+    {
+      "id": "A23158",
+      "breakers": [
+        {
+          "id": "A23158",
+          "level": "2",
+          "description": "Type A 40A 230V ~ 30mA",
+          "connection": "6 x PC Salle Reunion B10",
+          "location": "Salle de reunion B10",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        },
+        {
+          "id": "20725",
+          "level": "2",
+          "description": "C10 230V ~ 3000[3]",
+          "connection": "6 x PC Salle Reunion B10",
+          "location": "Salle de reunion B10",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        },
+        {
+          "id": "20726",
+          "level": "2",
+          "description": "C16 230V ~ 3000[3]",
+          "connection": "6 x PC Salle Reunion B16",
+          "location": "Salle de reunion B16",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        },
+        {
+          "id": "20727",
+          "level": "2",
+          "description": "C20 230V ~ 3000[3]",
+          "connection": "6 x PC Salle Reunion B17",
+          "location": "Salle de reunion B17",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        },
+        {
+          "id": "20729",
+          "level": "2",
+          "description": "C32 230V ~ 3000[3]",
+          "connection": "6 x PC Salle Reunion B19",
+          "location": "Salle de reunion B19",
+          "info": "Mise en service 18/06/2006 \n Maintenance 05/11/2011"
+        }
+      ]
+    }
+  ]
 }

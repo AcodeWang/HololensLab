@@ -31,11 +31,12 @@ public class NavigationManager : MonoBehaviour
         // The cursor indicator should only be visible if the target is not visible.
         isDirectionIndicatorVisible = !IsTargetVisible(ARCamera.GetComponent<Camera>());
 
-        if(!isDirectionIndicatorVisible && Vector3.Distance(ARCamera.transform.position, navTarget.transform.position) < 2)
+        if(!isDirectionIndicatorVisible && Vector3.Distance(ARCamera.transform.position, navTarget.transform.position) < 1.5f)
         {
             foreach (var renderer in GetComponentsInChildren<Renderer>())
             {
                 renderer.enabled = isDirectionIndicatorVisible;
+                gameObject.SetActive(false);
             }
 
             return;
@@ -48,11 +49,11 @@ public class NavigationManager : MonoBehaviour
             }
         }
 
-        navGO.transform.position = ARCamera.transform.position + ARCamera.transform.forward * 0.3f - Vector3.up * 0.02f;
+        navGO.transform.position = ARCamera.transform.position + ARCamera.transform.forward * 0.45f - Vector3.up * 0.06f;
 
-        Vector3 orient = navTarget.transform.position - ARCamera.transform.position;
+        Vector3 orient = navTarget.transform.position + navTarget.transform.up * 1f - ARCamera.transform.position;
 
-        navGO.transform.rotation = Quaternion.LookRotation(new Vector3(orient.x, 0, orient.z), Vector3.up);
+        navGO.transform.GetChild(0).rotation = Quaternion.LookRotation(-new Vector3(orient.x, orient.y, orient.z), Vector3.up);
 
         navText.text = Vector3.Distance(ARCamera.transform.position, navTarget.transform.position).ToString("F1") + "m";
     }

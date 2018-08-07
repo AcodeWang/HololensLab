@@ -4,18 +4,31 @@ using UnityEngine;
 
 public class BreakerClickAction : InteractibleAction {
 
+    public GameObject infoPanel;
     public BreakerData m_data;
 
     // Use this for initialization
     void Start () {
 
-        foreach (var breaker in FindObjectOfType<DataLoader>().bonduelleData.breakers)
+        foreach (var bonduelledata in FindObjectOfType<DataLoader>().bonduelleData.bonduelledatas)
         {
-            if(breaker.id == gameObject.name)
+            if(bonduelledata.id == gameObject.transform.parent.name)
             {
-                m_data = breaker;
+                foreach(var breakerdata in bonduelledata.breakers)
+                {
+                    if(name == breakerdata.id)
+                    {
+                        m_data = breakerdata;
+                        break;
+                    }
+                }
+                break;
             }
         }
+
+        infoPanel = GameObject.Find("InfoPanel");
+
+        //PerformAction();
     }
 	
 	// Update is called once per frame
@@ -31,7 +44,19 @@ public class BreakerClickAction : InteractibleAction {
             this.GetComponent<InteractibleGO>().defaultMaterials[i].color = Color.red;
         }
 
+        Debug.Log("Clicked");
 
-        InfoPanelManager.Instance.description.text = m_data.info;
+        if (m_data == null)
+            return;
+
+        infoPanel.SetActive(true);
+
+        InfoPanelManager.Instance.description.text = m_data.id + "\n" + m_data.description;
+        InfoPanelManager.Instance.level.text = "Level " + m_data.level;
+        InfoPanelManager.Instance.location.text = m_data.location;
+        InfoPanelManager.Instance.connection.text = m_data.connection;
+        InfoPanelManager.Instance.info.text = m_data.info;
+
+        InfoPanelManager.Instance.map.transform.parent.gameObject.SetActive(false);
     }
 }
