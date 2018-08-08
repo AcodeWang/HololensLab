@@ -38,7 +38,10 @@ public class PlacebleObjectClickAction : InteractibleAction {
 	
 	// Update is called once per frame
 	void Update () {
-
+        if(dofPanel == null)
+        {
+            dofPanel = FindObjectOfType<BroadcastManager>().DOFPanel.GetComponent<DOFPanelManager>();
+        }
     }
 
     public override void PerformAction()

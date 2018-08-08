@@ -23,6 +23,9 @@ public class InfoPanelManager : MonoBehaviour, IInputClickHandler
     public GameObject LastBreaker;
     public GameObject Breaker;
 
+    public GameObject icon;
+    public Texture[] iconImages;
+
     public InteractibleAction clickAction;
 
     public Text id;
@@ -77,6 +80,8 @@ public class InfoPanelManager : MonoBehaviour, IInputClickHandler
 
     public void DisableInfoPanel()
     {
+        LastBreaker.GetComponent<InteractibleGO>().UnFocusedInfoPanel();
+        Breaker.GetComponent<InteractibleGO>().UnFocusedInfoPanel();
         LastBreaker = null;
         Breaker = null;
         gameObject.SetActive(false);
@@ -85,6 +90,24 @@ public class InfoPanelManager : MonoBehaviour, IInputClickHandler
     public void DisableMapPanel()
     {
         map.gameObject.transform.parent.gameObject.SetActive(false);
+    }
+
+    public void IconClick()
+    {
+        if(Breaker.GetComponent<InteractibleGO>().isOn)
+        {
+            Breaker.GetComponent<InteractibleGO>().isOn = false;
+            icon.GetComponent<RawImage>().texture = iconImages[1];
+            Breaker.GetComponent<cakeslice.Outline>().color = 1;
+            Breaker.GetComponent<InteractibleGO>().conncetionLine.GetComponent<cakeslice.Outline>().color = 1;
+        }
+        else
+        {
+            Breaker.GetComponent<InteractibleGO>().isOn = true;
+            icon.GetComponent<RawImage>().texture = iconImages[0];
+            Breaker.GetComponent<cakeslice.Outline>().color = 2;
+            Breaker.GetComponent<InteractibleGO>().conncetionLine.GetComponent<cakeslice.Outline>().color = 2;
+        }
     }
 
     public void OnInputClicked(InputClickedEventData eventData)

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BreakerClickAction : InteractibleAction {
 
@@ -27,14 +28,17 @@ public class BreakerClickAction : InteractibleAction {
             }
         }
 
-        infoPanel = GameObject.Find("InfoPanel");
+        
 
         //PerformAction();
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(infoPanel == null)
+        {
+            infoPanel = FindObjectOfType<BroadcastManager>().InfoPanel;
+        }
 	}
 
     public override void PerformAction()
@@ -55,5 +59,14 @@ public class BreakerClickAction : InteractibleAction {
         InfoPanelManager.Instance.info.text = m_data.info;
 
         InfoPanelManager.Instance.map.transform.parent.gameObject.SetActive(false);
+
+        if (GetComponent<InteractibleGO>().isOn)
+        {
+            InfoPanelManager.Instance.icon.GetComponent<RawImage>().texture = InfoPanelManager.Instance.iconImages[0];
+        }
+        else
+        {
+            InfoPanelManager.Instance.icon.GetComponent<RawImage>().texture = InfoPanelManager.Instance.iconImages[1];
+        }
     }
 }

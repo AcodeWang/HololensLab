@@ -15,8 +15,6 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
     public GameObject upstream;
     public GameObject conncetionLine;
 
-    public GameObject connectObject;
-
     public Renderer _renderer;
 
     public Material[] defaultMaterials;
@@ -25,6 +23,8 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
     public InteractibleAction interactibleAction;
 
     public BreakerStatus m_status = BreakerStatus.User;
+
+    public bool isOn = true;
 
     // Use this for initialization
     void Start () {
@@ -74,7 +74,14 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
             var outline = gameObject.AddComponent<cakeslice.Outline>();
         }
 
-        GetComponent<cakeslice.Outline>().color = 2;
+        if (isOn)
+        {
+            GetComponent<cakeslice.Outline>().color = 2;
+        }
+        else
+        {
+            GetComponent<cakeslice.Outline>().color = 1;
+        }
 
         if(upstream == null)
         {
@@ -88,20 +95,15 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
         }
         else
         {
-            conncetionLine.AddComponent<cakeslice.Outline>().color = 2;
-        }
-
-        connectObject = GameObject.Find(data.connection);
-
-        if (connectObject != null)
-        {
-            var connectRenderers = connectObject.GetComponentsInChildren<Renderer>();
-            foreach (var renderer in connectRenderers)
+            if (isOn)
             {
-                renderer.gameObject.AddComponent<cakeslice.Outline>().color = 2;
+                conncetionLine.AddComponent<cakeslice.Outline>().color = 2;
+            }
+            else
+            {
+                conncetionLine.AddComponent<cakeslice.Outline>().color = 1;
             }
         }
-
 
         if(conncetionLine != null)
         {
@@ -151,15 +153,6 @@ public class InteractibleGO : MonoBehaviour,IFocusable, IInputClickHandler {
         {
             Destroy(conncetionLine.GetComponent<cakeslice.Outline>());
             conncetionLine.SetActive(false);
-        }
-
-        if (connectObject != null)
-        {
-            var connectRenderers = connectObject.GetComponentsInChildren<Renderer>();
-            foreach (var renderer in connectRenderers)
-            {
-                Destroy(renderer.gameObject.GetComponent<cakeslice.Outline>());
-            }
         }
 
         var upInteractible = upstream.GetComponent<InteractibleGO>();
