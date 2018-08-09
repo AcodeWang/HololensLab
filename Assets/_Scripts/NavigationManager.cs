@@ -31,13 +31,15 @@ public class NavigationManager : MonoBehaviour
         // The cursor indicator should only be visible if the target is not visible.
         isDirectionIndicatorVisible = !IsTargetVisible(ARCamera.GetComponent<Camera>());
 
-        if(!isDirectionIndicatorVisible && Vector3.Distance(ARCamera.transform.position, navTarget.transform.position) < 1.5f)
+        if(!isDirectionIndicatorVisible && Vector3.Distance(ARCamera.transform.position, navTarget.transform.position) < 1f)
         {
             foreach (var renderer in GetComponentsInChildren<Renderer>())
             {
                 renderer.enabled = isDirectionIndicatorVisible;
                 gameObject.SetActive(false);
             }
+
+            FindObjectOfType<Scenario>().StopScenerio();
 
             return;
         }
